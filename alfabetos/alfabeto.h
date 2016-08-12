@@ -7,7 +7,6 @@
 
 
 int iniciar_programa();
-int potencia(int, int);
 int iniciar_alfabeto(char **, int);
 int escribir_palabra(FILE **, int *,char*, int);
 int obtener_cadenas(char *, int, int);

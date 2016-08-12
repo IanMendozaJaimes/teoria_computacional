@@ -70,29 +70,12 @@ int escribir_palabra(FILE **archivo, int * cadena_temporal, char * alfabeto, int
     return 1;
 }
 
-int iniciar_cadena(char **cadena, char *alfabeto, int tamanio_cadena, int desde){
-    int i;
-    for(i = desde; i < tamanio_cadena; i++){
-        *(*cadena + i) = *alfabeto;
-    }
-    return 1;
-}
-
-
 int iniciar_alfabeto(char **alfabeto, int tamanio){
     int i;
     for(i = 0; i < tamanio; i++){
         *(*alfabeto + i) = i + '0';
     }
     return  1;
-}
-
-
-int potencia(int base, int exponente){
-  if(exponente == 0){
-    return 1;
-  }
-  return potencia(base, exponente-1) * base;
 }
 
 
