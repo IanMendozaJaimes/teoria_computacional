@@ -1,5 +1,7 @@
 /*
-No podemos saber lo que nos depara el mañana, pero si podemos asegurar que una transformación lineal es inyectiva si y solo si el único elemento de su kernel es el cero vector
+
+No podemos saber lo que nos depara el mañana, pero si podemos asegurar que una
+transformación lineal es inyectiva si y solo si el único elemento de su kernel es el cero vector
 
 */
 #include "alfabeto.h"
