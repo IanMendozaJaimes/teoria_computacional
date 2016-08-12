@@ -23,8 +23,6 @@ int iniciar_programa(){
 int obtener_cadenas(char *alfabeto, int tamanio, int n){
     int i;
     int j;
-    int k;
-    int tamanio_temporal = 0;
     int * cadena_temporal = NULL;
     int salir = 0;
     FILE *archivo = NULL;
@@ -46,9 +44,7 @@ int obtener_cadenas(char *alfabeto, int tamanio, int n){
                 if( *(cadena_temporal + j) > (tamanio -1)){
                     *(cadena_temporal + j) = 0;
                 }
-                else{
-                    break;
-                }
+                else{break;}
             }
             if(j == -1){
                 free(cadena_temporal);
