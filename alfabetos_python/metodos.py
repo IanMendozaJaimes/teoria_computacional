@@ -2,7 +2,7 @@
 # -*- coding: latin-1 -*-
 
 def iniciar_programa():
-	n = 31
+	n = 2
 	alfabeto = ['0','1']
 	obtener_cadenas(alfabeto, n)
 
@@ -38,6 +38,7 @@ def obtener_cadenas(alfabeto, n):
 			if i == -1:
 				seguir = False
 	archivo.write(" }")
+	archivo.close()
 
 def escribe_palabra(archivo, cadena_tamporal, alfabeto):
 	archivo.write(", ")
