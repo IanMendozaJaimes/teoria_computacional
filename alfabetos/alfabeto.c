@@ -7,8 +7,8 @@ transformación lineal es inyectiva si y solo si el único elemento de su kernel
 #include "alfabeto.h"
 
 int iniciar_programa(){
-  int n = 3;
-  int tamanio_alfabeto = 3;
+  int n = 20;
+  int tamanio_alfabeto = 2;
   char * alfabeto = NULL;
 
   alfabeto = (char *)malloc(tamanio_alfabeto * sizeof(char)); //esto sera nuestro arreglo para el alfabeto
