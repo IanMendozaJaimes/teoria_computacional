@@ -1,15 +1,9 @@
-def iniciar_programa():
-    numeros_primos = [2,3,5,7,11]
-    numeros_primos_binarios = []
-    n = 100
-    archivo = open("primos.txt", "w")
-
-    numeros_primos = encontrar_primos(numeros_primos, n)
-    numeros_primos_binarios = convertir_primos_a_binarios(numeros_primos, archivo)
-
-
 def encontrar_primos(numeros_primos, n):
-    for x in xrange(2,n+1):
+    if n == 1:
+        return numeros_primos
+
+    numeros_primos.append(2)    
+    for x in range(2,n+1):
         es_primo = True
 
         for y in numeros_primos:
