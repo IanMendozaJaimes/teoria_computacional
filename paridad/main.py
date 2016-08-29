@@ -3,17 +3,17 @@ from random import random
 
 def main():
     try:
-        opcion = imprimir_menu()
+        while True:
+            opcion = imprimir_menu()
 
-        if opcion == 1:
-            ejecuta_manual()
-        elif opcion == 2:
-            ejecuta_automatico()
-        elif opcion == 3:
-            ejecuta_diagrama()
-        else:
-            return 1
-
+            if opcion == 1:
+                ejecuta_manual()
+            elif opcion == 2:
+                ejecuta_automatico()
+            elif opcion == 3:
+                ejecuta_diagrama()
+            else:
+                return 1
 
     except Exception as e:
         print('Uuups, parece que hubo un problema: ',e)
@@ -22,23 +22,63 @@ def main():
 
 
 def ejecuta_manual():
-    texto = input('Introdusca un número binario: ')
-    es_permitida = obtener_paridades(texto)
+    while True:
+        texto = input('Introdusca un número binario: ')
+        es_permitida = obtener_paridades(texto)
+        opcion = ''
 
-    if es_permitida:
-        print('La palabra ', texto, ' es permitida')
-    else:
-        print('La palabra ', texto, ' no es permitida')
+        if es_permitida:
+            print('La palabra ', texto, ' es permitida')
+        else:
+            print('La palabra ', texto, ' no es permitida')
 
-    return es_permitida
+        opcion = input("Quiere ingresar otro número? [s/n]  ")
+        if opcion != 's' and opcion != 'S':
+            return 1
 
+
+
+def ejecuta_automatico():
+    limite = 0
+    aleatorio = 0
+    numero = ''
+    i = 0
+    seguir = True
+    es_permitida = False
+    continuar = 0
+
+    while seguir:
+        limite = int(random() * 100) % 11
+        while i < limite:
+            aleatorio = int(random() * 10) % 2
+            if aleatorio == 0:
+                numero += '0'
+            else:
+                numero += '1'
+            i += 1
+
+        es_permitida = obtener_paridades(numero)
+        if es_permitida:
+            print('La palabra ', numero, ' es permitida')
+        else:
+            print('La palabra ', numero, ' no es permitida')
+
+        continuar = int(random() * 10) % 2
+        if continuar == 0:
+            seguir = False
+        else:
+            seguir = True
+
+
+def ejecuta_diagrama():
+    print('Lo siento, no puedo hacer eso joven')
 
 
 
 def imprimir_menu():
     while True:
         try:
-            opcion = int(input("\n\nEscoja lo que desea: \n1.- Manual \n 2-Automático \n3.- Ver diagrama \n4.- Salir"))
+            opcion = int(input("\n\n\nEscoja lo que desea: \n1.- Manual \n2.- Automático \n3.- Ver diagrama \n4.- Salir\n\n"))
             if opcion >= 1 and opcion <= 4:
                 return opcion
             else:

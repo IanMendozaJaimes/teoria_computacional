@@ -3,7 +3,7 @@ def obtener_paridades(texto):
     temporal = ''
     estado = 0
     for x in texto:
-        print('E', estado, ' ', x, ', ')
+        print('E', estado, ' ', x, end=', ')
         if estado == 0:
             estado = estado_cero(x)
         elif estado == 1:
