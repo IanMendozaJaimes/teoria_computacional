@@ -1,4 +1,23 @@
 from automata import obtener_palabras
+from ctypes import *
+
+
+#Esto es muy util
+#http://shakaran.net/blog/2010/10/como-usar-bibliotecas-de-c-en-python/
+
+grafico = cdll.LoadLibrary('./grafico.so')
+print(grafico.multiplicar(2,3))
+
+
+
+
+
+
+
+
+
+
+
 
 def main():
     #texto = "¡Es cierto! Siempre he sido nervioso, muy nervioso, terriblemente nervioso. ¿Pero por qué afirman ustedes que estoy loco? La enfermedad había agudizado mis sentidos, en vez de destruirlos o embotarlos. Y mi oído era el más agudo de todos. Oía todo lo que puede oírse en la tierra y en el cielo. Muchas cosas ere oí en el infierno. ¿Cómo puedo estar loco, entonces? Escuchen… y observen con cuánta cordura, con cuánta tranquilidad les cuento mi historia. quiere"
@@ -76,4 +95,4 @@ def imprimir_palabras_aceptadas(palabras_aceptadas, seleccion):
                 print("Linea ", x[0], " palabras aceptadas: ", x[1])
 
 
-main()
+#main()
