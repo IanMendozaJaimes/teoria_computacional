@@ -5,18 +5,8 @@ from ctypes import *
 #Esto es muy util
 #http://shakaran.net/blog/2010/10/como-usar-bibliotecas-de-c-en-python/
 
-grafico = cdll.LoadLibrary('./grafico.so')
-print(grafico.multiplicar(2,3))
-
-
-
-
-
-
-
-
-
-
+#grafico = cdll.LoadLibrary('./grafico.so')
+#print(grafico.multiplicar(2,3))
 
 
 def main():
@@ -95,4 +85,4 @@ def imprimir_palabras_aceptadas(palabras_aceptadas, seleccion):
                 print("Linea ", x[0], " palabras aceptadas: ", x[1])
 
 
-#main()
+main()
