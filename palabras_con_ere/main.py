@@ -1,4 +1,4 @@
-from automata import obtener_palabras
+from automata import obtener_palabras, graficar_automata
 from ctypes import *
 
 
@@ -30,6 +30,8 @@ def main():
                 print(texto)
                 archivo = open(texto, "r")
                 palabras_aceptadas = leer_archivo(alfabeto, archivo)
+            elif opcion == 3:
+                graficar_automata()
             else:
                 return 0
 
@@ -48,7 +50,7 @@ def imprimir_menu():
     seguir = True
     while seguir:
         try:
-            opcion = int(input("\n\nIngrese la opción que desea: \n1.- Ingresar texto \n2.- Ingresar un archivo \n3.- Salir \n"))
+            opcion = int(input("\n\nIngrese la opción que desea: \n1.- Ingresar texto \n2.- Ingresar un archivo \n3.- Ver gráfico del automata \n4.- Salir\n"))
             return opcion
         except Exception as e:
             print("Por favor, ingrese un dato valido.")
