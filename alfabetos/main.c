@@ -10,14 +10,15 @@ int main(int argc, char const *argv[]) {
     srand(time(NULL));
 
     while(continuar == 1){
-        printf("%s\n", "Seleccione la modalidad: \n1.- Automático \n2.- Manual \n3.- Salir");
+        printf("%s\n", "Seleccione la modalidad: \n1.- Automatico \n2.- Manual \n3.- Salir");
         scanf(" %c", &seleccion);
 
         if(seleccion == '1' || seleccion == '2'){
             continuar_modalidad = 1;
             while (continuar_modalidad == 1) {
                 if(seleccion == '1'){
-                    n = 1  + (rand()%5);
+                    n = 1  + (rand()%1000);
+                    printf("Se ha seleccionado un n = %d\n", n);
                 }
                 else{
                     printf("%s ", "Ingrese un n: ");

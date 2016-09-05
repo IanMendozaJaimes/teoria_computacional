@@ -1,21 +1,9 @@
 from automata import obtener_palabras, graficar_automata
 from ctypes import *
 
-
-#Esto es muy util
-#http://shakaran.net/blog/2010/10/como-usar-bibliotecas-de-c-en-python/
-
-#grafico = cdll.LoadLibrary('./grafico.so')
-#print(grafico.multiplicar(2,3))
-
-
 def main():
-    #texto = "¡Es cierto! Siempre he sido nervioso, muy nervioso, terriblemente nervioso. ¿Pero por qué afirman ustedes que estoy loco? La enfermedad había agudizado mis sentidos, en vez de destruirlos o embotarlos. Y mi oído era el más agudo de todos. Oía todo lo que puede oírse en la tierra y en el cielo. Muchas cosas ere oí en el infierno. ¿Cómo puedo estar loco, entonces? Escuchen… y observen con cuánta cordura, con cuánta tranquilidad les cuento mi historia. quiere"
-    #texto = 'It is impossible to say how first the idea entered my brain; but once conceived, it haunted me day and night. Object there was none. Passion there was none. I loved the old man. He had never wronged me. He had never given me insult. For his gold I had no desire. I think it was his eye! yes, it was this! He had the eye of a vulture --a pale blue eye, with a film over it. Whenever it fell upon me, my blood ran cold; and so by degrees --very gradually --I made up my mind to take the life of the old man, and thus rid myself of the eye forever.'
-    seguir = True
     while seguir:
         try:
-            alfabeto = [97, 122]
             palabras_aceptadas = []
             texto = ""
             archivo = None
@@ -24,13 +12,16 @@ def main():
 
             if opcion == 1:
                 texto = input("\n\nIngrese un texto: \n")
-                palabras_aceptadas = leer_texto(alfabeto, texto)
+                palabras_aceptadas = leer_texto(texto)
             elif opcion == 2:
                 texto = input("\n\nIngrese el nombre de un archivo: \n")
-                print(texto)
                 archivo = open(texto, "r")
-                palabras_aceptadas = leer_archivo(alfabeto, archivo)
+                palabras_aceptadas = leer_archivo(archivo)
             elif opcion == 3:
+                print("Sera utilizado el archivo heart.txt")
+                archivo = open("heart.txt", "r")
+                palabras_aceptadas = leer_archivo(archivo)
+            elif opcion == 4:
                 graficar_automata()
             else:
                 return 0
@@ -50,25 +41,24 @@ def imprimir_menu():
     seguir = True
     while seguir:
         try:
-            opcion = int(input("\n\nIngrese la opción que desea: \n1.- Ingresar texto \n2.- Ingresar un archivo \n3.- Ver gráfico del automata \n4.- Salir\n"))
+            opcion = int(input("\n\nIngrese la opcion que desea: \n1.- Ingresar texto \n2.- Ingresar un archivo \n3.- Automatico \n4.- Ver gráfico del automata \n5.- Salir\n"))
             return opcion
         except Exception as e:
             print("Por favor, ingrese un dato valido.")
 
 
-def leer_texto(alfabeto, texto):
+def leer_texto(texto):
     texto += " "
-    aceptadas = obtener_palabras(alfabeto, texto)
+    aceptadas = obtener_palabras(texto)
     return aceptadas
 
 
-def leer_archivo(alfabeto, archivo):
+def leer_archivo(archivo):
     aceptadas = None
     palabras_aceptadas = []
     contador = 1
     for linea in archivo:
-        print(linea)
-        aceptadas = obtener_palabras(alfabeto, linea)
+        aceptadas = obtener_palabras(linea)
         palabras_aceptadas.append([contador, aceptadas])
         contador += 1
 

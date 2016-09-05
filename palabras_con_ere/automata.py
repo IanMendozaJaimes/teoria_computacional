@@ -1,7 +1,7 @@
 from tkinter import *
 import time
 
-def obtener_palabras(alfabeto, texto):
+def obtener_palabras(texto):
     estado = 0
     palabras_aceptadas = []
     temporal = ''
@@ -10,14 +10,7 @@ def obtener_palabras(alfabeto, texto):
         letra_auxiliar = x
         letra_auxiliar.lower()
 
-        if estado == 0:
-            estado = estado_cero(alfabeto,letra_auxiliar)
-        elif estado == 1:
-            estado = estado_uno(alfabeto,letra_auxiliar)
-        elif estado == 2:
-            estado = estado_dos(alfabeto,letra_auxiliar)
-        elif estado == 3:
-            estado = estado_tres(alfabeto,letra_auxiliar)
+        estado = automata(estado, letra_auxiliar)
 
         if estado == -1:
             estado = 0
@@ -30,6 +23,19 @@ def obtener_palabras(alfabeto, texto):
             temporal += x
 
     return palabras_aceptadas
+
+def automata(estado, letra_auxiliar):
+    alfabeto = [97, 122]
+    if estado == 0:
+        return estado_cero(alfabeto,letra_auxiliar)
+    elif estado == 1:
+        return estado_uno(alfabeto,letra_auxiliar)
+    elif estado == 2:
+        return estado_dos(alfabeto,letra_auxiliar)
+    elif estado == 3:
+        return estado_tres(alfabeto,letra_auxiliar)
+    else:
+        return -1
 
 
 def estado_cero(alfabeto,letra):

@@ -4,7 +4,7 @@ def encontrar_primos(numeros_primos, n):
 
     if len(numeros_primos) == 0:
         numeros_primos.append(2)
-        
+
     for x in range(2,n+1):
         es_primo = True
 

@@ -26,7 +26,7 @@ def iniciar_programa(seleccion=1):
     numero_ceros_unos = []
     n = 0
     continuar = True
-    archivo = open("primos.txt", "a")
+    archivo = None
 
     while continuar:
         if seleccion == 2:
@@ -35,9 +35,13 @@ def iniciar_programa(seleccion=1):
             n = int(random() * 1000)
             print("\nFue seleccionado un n = ", n)
 
+        archivo = open("primos.txt", "a")
+
         numeros_primos = encontrar_primos(numeros_primos, n)
         numeros_primos_binarios = convertir_primos_a_binarios(numeros_primos, archivo)
         numero_ceros_unos = contar_ceros_unos(numeros_primos_binarios)
+
+        archivo.close()
 
         imprimir_ceros_unos(numero_ceros_unos, numeros_primos)
 
@@ -47,8 +51,6 @@ def iniciar_programa(seleccion=1):
             eleccion = ingresar_datos("\n¿Desea ingresar otra n?  \n1.- Si \n2.- No \n")
             if eleccion != 1:
                 continuar = False
-
-    archivo.close()
 
 
 def ingresar_datos(texto):

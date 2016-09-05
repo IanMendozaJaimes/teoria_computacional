@@ -1,0 +1,17 @@
+\select@language {spanish}
+\contentsline {section}{\numberline {1}Introducci\IeC {\'o}n}{3}
+\contentsline {section}{\numberline {2}Alfabetos}{4}
+\contentsline {subsection}{\numberline {2.1}Descripci\IeC {\'o}n del problema}{4}
+\contentsline {subsection}{\numberline {2.2}C\IeC {\'o}digo fuente}{4}
+\contentsline {subsection}{\numberline {2.3}Pruebas}{8}
+\contentsline {section}{\numberline {3}N\IeC {\'u}meros primos}{10}
+\contentsline {subsection}{\numberline {3.1}Descripci\IeC {\'o}n del problema}{10}
+\contentsline {subsection}{\numberline {3.2}C\IeC {\'o}digo}{10}
+\contentsline {subsection}{\numberline {3.3}Pruebas}{13}
+\contentsline {section}{\numberline {4}Palabras que terminan en ere}{15}
+\contentsline {subsection}{\numberline {4.1}Descripci\IeC {\'o}n del problema}{15}
+\contentsline {subsection}{\numberline {4.2}C\IeC {\'o}digo}{15}
+\contentsline {subsection}{\numberline {4.3}Pruebas}{21}
+\contentsline {section}{\numberline {5}Paridad}{22}
+\contentsline {section}{\numberline {6}Protocolo}{23}
+\contentsline {section}{\numberline {7}Cadenas que terminan en 01}{24}
