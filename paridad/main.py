@@ -1,4 +1,4 @@
-from metodos import obtener_paridades
+from metodos import obtener_paridades, ejecuta_diagrama
 from random import random
 
 def main():
@@ -48,7 +48,8 @@ def ejecuta_automatico():
     continuar = 0
 
     while seguir:
-        limite = int(random() * 100) % 11
+        limite = int(random() * 2000) % 1001
+        i = 0
         while i < limite:
             aleatorio = int(random() * 10) % 2
             if aleatorio == 0:
@@ -70,11 +71,6 @@ def ejecuta_automatico():
             seguir = True
 
 
-def ejecuta_diagrama():
-    print('Lo siento, no puedo hacer eso joven')
-
-
-
 def imprimir_menu():
     while True:
         try:
@@ -87,4 +83,5 @@ def imprimir_menu():
             print('Por favor, intrudusca un dato válido')
 
 
-main()
+#main()
+ejecuta_diagrama()

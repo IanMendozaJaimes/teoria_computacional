@@ -27,57 +27,47 @@ def obtener_palabras(texto):
 def automata(estado, letra_auxiliar):
     alfabeto = [97, 122]
     if estado == 0:
-        return estado_cero(alfabeto,letra_auxiliar)
+        return estado_cero(letra_auxiliar)
     elif estado == 1:
-        return estado_uno(alfabeto,letra_auxiliar)
+        return estado_uno(letra_auxiliar)
     elif estado == 2:
-        return estado_dos(alfabeto,letra_auxiliar)
+        return estado_dos(letra_auxiliar)
     elif estado == 3:
-        return estado_tres(alfabeto,letra_auxiliar)
+        return estado_tres(letra_auxiliar)
     else:
         return -1
 
 
-def estado_cero(alfabeto,letra):
-    if(ord(letra) >= alfabeto[0] and ord(letra) <= alfabeto[1]):
-        if letra == 'e':
-            return 1
-        else:
-            return 0
+def estado_cero(letra):
+    if letra == 'e':
+        return 1
     else:
-        return -1
+        return 0
 
 
-def estado_uno(alfabeto,letra):
-    if(ord(letra) >= alfabeto[0] and ord(letra) <= alfabeto[1]):
-        if letra == 'e':
-            return 1
-        elif letra == 'r':
-            return 2
-        else:
-            return 0
+def estado_uno(letra):
+    if letra == 'e':
+        return 1
+    elif letra == 'r':
+        return 2
     else:
-        return -1
+        return 0
 
 
-def estado_dos(alfabeto,letra):
-    if(ord(letra) >= alfabeto[0] and ord(letra) <= alfabeto[1]):
-        if letra == 'e':
-            return 3
-        else:
-            return 0
+def estado_dos(letra):
+    if letra == 'e':
+        return 3
     else:
-        return -1
+        return 0
 
 
-def estado_tres(alfabeto,letra):
-    if(ord(letra) >= alfabeto[0] and ord(letra) <= alfabeto[1]):
-        if letra == 'e':
-            return 1
-        else:
-            return 0
+def estado_tres(letra):
+    if letra == 'e':
+        return 1
+    elif letra == 'r':
+        return 2
     else:
-        return 4
+        return 0
 
 def graficar_automata():
     raiz = Tk()

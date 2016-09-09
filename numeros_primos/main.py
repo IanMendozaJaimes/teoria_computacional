@@ -38,12 +38,12 @@ def iniciar_programa(seleccion=1):
         archivo = open("primos.txt", "a")
 
         numeros_primos = encontrar_primos(numeros_primos, n)
-        numeros_primos_binarios = convertir_primos_a_binarios(numeros_primos, archivo)
+        numeros_primos_binarios = convertir_primos_a_binarios(numeros_primos, archivo, n)
         numero_ceros_unos = contar_ceros_unos(numeros_primos_binarios)
 
         archivo.close()
 
-        imprimir_ceros_unos(numero_ceros_unos, numeros_primos)
+        imprimir_ceros_unos(numero_ceros_unos, numeros_primos, n)
 
         if seleccion == 1:
             continuar = int(random() * 100) % 2
@@ -62,15 +62,28 @@ def ingresar_datos(texto):
             else:
                 raise Exception()
         except Exception as e:
-            print("Por favor ingrese un dato válido")
+            print("Por favor ingrese un dato válido", e)
 
 
-def imprimir_ceros_unos(numero_ceros_unos, numeros_primos):
+def imprimir_ceros_unos(numero_ceros_unos, numeros_primos, n):
+    if n == 1:
+        return -1
+
     contador = 0
-    print (numeros_primos)
+    i = 0
+    print('[ ', end=' ')
+    try:
+        while numeros_primos[i] <= n:
+            print (str(numeros_primos[i])+',', end=' ')
+            i += 1
+    except Exception as e:
+        pass 
+    print(']')
+
     print("{ numero primo, numero de unos }")
-    while contador < len(numeros_primos):
+    while contador < len(numero_ceros_unos):
         print("{",numeros_primos[contador], ",",numero_ceros_unos[contador][1],"}", end=", ")
         contador += 1
+
 
 main()

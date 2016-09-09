@@ -2,6 +2,7 @@ from automata import obtener_palabras, graficar_automata
 from ctypes import *
 
 def main():
+    seguir = True
     while seguir:
         try:
             palabras_aceptadas = []

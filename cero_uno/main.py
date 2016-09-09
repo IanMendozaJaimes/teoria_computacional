@@ -1,7 +1,7 @@
-from metodos import evaluar_cadena
+from metodos import *
 
 def main():
-    ver = evaluar_cadena('01')
-
+    cadena = evaluar_cadena('00101')
+    imprimir_estados(cadena)
 
 main()

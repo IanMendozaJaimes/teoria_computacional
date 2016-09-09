@@ -1,59 +1,31 @@
-import threading #para los hilos
-import time
+import pdb
 
-letra_global = ''
-estado_global = [0]
-c = threading.Condition()
+def evaluar_cadena(texto):
+    tabla_estados = [[0]]
+    estado = []
+    contador = 0
+    for x in texto:
+        for i in range(len(tabla_estados)):
+            estado = automata(tabla_estados[i][contador], x)
+            if len(estado) == 2:
+                tabla_estados.append([0] * (contador+1))
+                tabla_estados[(len(tabla_estados)-1)].append(1)
+                tabla_estados[i].append(0)
+            elif estado[0] == 2:
+                tabla_estados[i].append(2)
+            elif estado[0] == -1:
+                tabla_estados[i].append(-1)
+            else:
+                tabla_estados[i].append(0)
 
-class proceso_automata(threading.Thread):
-    def __init__(self, estado):
-        threading.Thread.__init__(self)
-        self.estado = estado
+        contador += 1
 
-    def run(self):
-        global letra_global
-        global estado_global
-        while True:
-            c.acquire()
-            self.estado = automata(self.estado, letra_global)
-            if self.estado == 3:
-                estado_global[0] = 2
-                break
-            elif self.estado == -1:
-                break
-
-            time.sleep(0.1)
-            c.notify_all()
-            c.release()
-
-
-
-
-def evaluar_cadena(cadena):
-    estado = [0]
-    hilos = []
-    for letra in cadena:
-        letra_global = letra
-        estado = automata(estado[0], letra)
-        if len(estado) > 1:
-            h = proceso_automata(estado[1])
-            hilos.append(h)
-            h.start()
-            h.join()
-
-        time.sleep(0.2)
-
-    #print(estado_global)
-    if estado_global[0] == 2:
-        return True
-    else:
-        return False
-
+    return tabla_estados
 
 def automata(estado, letra):
     if estado == 0:
         return estado_cero(letra)
-    elif estado == 1:
+    elif estado  == 1:
         return estado_uno(letra)
     elif estado == 2:
         return estado_dos(letra)
@@ -62,25 +34,37 @@ def automata(estado, letra):
 
 
 def estado_cero(letra):
-    estados = []
-    if letra == '0' or letra == '1':
-        estados.append(0)
-        estados.append(1)
-        return estados
+    if letra == '0':
+        return [0,1]
+    elif letra == '1':
+        return [1]
     else:
         return [-1]
+
 
 
 def estado_uno(letra):
-    estados = []
     if letra == '1':
-        estados.append(2)
-        return estados
+        return [2]
     else:
         return [-1]
 
-def estado_dos(letra=''):
+
+
+def estado_dos(letra):
     if letra != '':
         return [-1]
     else:
-        return [3]
+        return [2]
+
+
+
+def imprimir_estados(tabla_estados):
+    for x in range(0,len(tabla_estados[0])):
+        for j in range(len(tabla_estados)):
+            if tabla_estados[j][x] == -1:
+                print('xx', end=' ')
+            else:
+                print('q'+str(tabla_estados[j][x]), end=' ')
+
+        print("")

@@ -423,10 +423,10 @@ El modelo del automata utilizado para resolver este programa es el siguiente:
 \begin{figure}[H]
 \includegraphics[width=\textwidth, height=10cm]{automata_ere}
 \caption{El autómata utilizado para este problema}
-\label{fig:modelo_automata_ere}
+\label{fig:automata_ere_modelo}
 \end{figure}
 
-El lenguaje utilizado para este programa fue Python. El código para resolver el problema es el siguiente:\\
+El lenguaje utilizado para este programa fue Python en su versión 3.5. El código para resolver el problema es el siguiente:\\
 
 Archivo: main.py
 \lstset{language=Python, breaklines=true, basicstyle=\footnotesize}
@@ -516,7 +516,7 @@ main()
 
 \vspace{1em}
 
-Archivo: 
+Archivo: automata.py
 \lstset{language=Python, breaklines=true, basicstyle=\footnotesize}
 \begin{lstlisting}[frame=single]
 from tkinter import *
@@ -682,6 +682,25 @@ def dibujos_especificos(canvas, i, x, y):
 \end{lstlisting}
 
 \subsection{Pruebas}
+Los siguientes, son los resultados que se obtuvieron del programa anterior.
+
+\begin{figure}[H]
+\includegraphics[width=\textwidth, height=8cm]{palabras_ere_texto}
+\caption{Un texto analizado por el programa.}
+\label{fig:automata_ere_texto}
+\end{figure}
+
+\begin{figure}[H]
+\includegraphics[width=\textwidth, height=8cm]{palabras_ere_archivo}
+\caption{Un archivo analizado por el programa.}
+\label{fig:automata_ere_archivo}
+\end{figure}
+
+\begin{figure}[H]
+\includegraphics[width=\textwidth, height=8cm]{palabras_ere_auto}
+\caption{Un archivo analizado de forma automática por el programa.}
+\label{fig:automata_ere_auto}
+\end{figure}
 
 \newpage
 \section{Paridad}

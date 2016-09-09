@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  4 SEP 2016 19:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  4 SEP 2016 20:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -731,19 +731,44 @@ Underfull \hbox (badness 10000) in paragraph at lines 429--430
 
  []
 
-[15 <./imagenes/automata_ere.png>] [16] [17] [18] [19] [20] [21] [22] [23]
-(./reporte_primer_parcial.bbl
+[15 <./imagenes/automata_ere.png>] [16] [17] [18] [19]
+<imagenes/palabras_ere_texto.png, id=85, 736.7525pt x 359.3425pt>
+File: imagenes/palabras_ere_texto.png Graphic file (type png)
+
+<use imagenes/palabras_ere_texto.png>
+Package pdftex.def Info: imagenes/palabras_ere_texto.png used on input line 688
+.
+(pdftex.def)             Requested size: 472.02588pt x 227.62614pt.
+ [20]
+<imagenes/palabras_ere_archivo.png, id=89, 755.82375pt x 487.8225pt>
+File: imagenes/palabras_ere_archivo.png Graphic file (type png)
+
+<use imagenes/palabras_ere_archivo.png>
+Package pdftex.def Info: imagenes/palabras_ere_archivo.png used on input line 6
+94.
+(pdftex.def)             Requested size: 472.03116pt x 227.62413pt.
+
+<imagenes/palabras_ere_auto.png, id=90, 826.08624pt x 449.68pt>
+File: imagenes/palabras_ere_auto.png Graphic file (type png)
+
+<use imagenes/palabras_ere_auto.png>
+Package pdftex.def Info: imagenes/palabras_ere_auto.png used on input line 700.
+
+(pdftex.def)             Requested size: 472.0337pt x 227.62523pt.
+ [21 <./imagenes/palabras_ere_texto.png> <./imagenes/palabras_ere_archivo.png>]
+ [22 <./imagenes/palabras_ere_auto.png>]
+[23] [24] (./reporte_primer_parcial.bbl
 LaTeX Font Info:    Font shape `T1/pbk/m/sc' in size <12> not available
 (Font)              Font shape `T1/pbk/l/sc' tried instead on input line 4.
-) [24] (./reporte_primer_parcial.aux
+) [25] (./reporte_primer_parcial.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 ) ) 
 Here is how much of TeX's memory you used:
- 7650 strings out of 493089
- 105670 string characters out of 6134842
- 424853 words of memory out of 5000000
- 10992 multiletter control sequences out of 15000+600000
+ 7668 strings out of 493089
+ 106243 string characters out of 6134842
+ 424880 words of memory out of 5000000
+ 11007 multiletter control sequences out of 15000+600000
  28645 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,6n,49p,534b,1780s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -757,10 +782,10 @@ ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive
 15/texmf-dist/fonts/type1/urw/bookman/ubkd8a.pfb></usr/local/texlive/2015/texmf
 -dist/fonts/type1/urw/bookman/ubkl8a.pfb></usr/local/texlive/2015/texmf-dist/fo
 nts/type1/urw/bookman/ubkli8a.pfb>
-Output written on reporte_primer_parcial.pdf (24 pages, 1491286 bytes).
+Output written on reporte_primer_parcial.pdf (25 pages, 2294599 bytes).
 PDF statistics:
- 131 PDF objects out of 1000 (max. 8388607)
- 83 compressed objects within 1 object stream
+ 141 PDF objects out of 1000 (max. 8388607)
+ 86 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 

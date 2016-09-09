@@ -12,6 +12,6 @@
 \contentsline {subsection}{\numberline {4.1}Descripci\IeC {\'o}n del problema}{15}
 \contentsline {subsection}{\numberline {4.2}C\IeC {\'o}digo}{15}
 \contentsline {subsection}{\numberline {4.3}Pruebas}{21}
-\contentsline {section}{\numberline {5}Paridad}{22}
-\contentsline {section}{\numberline {6}Protocolo}{23}
-\contentsline {section}{\numberline {7}Cadenas que terminan en 01}{24}
+\contentsline {section}{\numberline {5}Paridad}{23}
+\contentsline {section}{\numberline {6}Protocolo}{24}
+\contentsline {section}{\numberline {7}Cadenas que terminan en 01}{25}
