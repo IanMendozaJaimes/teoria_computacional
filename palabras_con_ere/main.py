@@ -12,16 +12,27 @@ def main():
             opcion = imprimir_menu()
 
             if opcion == 1:
-                texto = input("\n\nIngrese un texto: \n")
+                print("\n\nIngrese un texto (dos enter para salir): \n")
+                tem = ''
+                t = ''
+                texto = []
+                contador = 0
+                while True:
+                    t = input()
+                    if t == '':
+                        break
+                    texto.append(t)
+
                 palabras_aceptadas = leer_texto(texto)
             elif opcion == 2:
                 texto = input("\n\nIngrese el nombre de un archivo: \n")
                 archivo = open(texto, "r")
-                palabras_aceptadas = leer_archivo(archivo)
+                palabras_aceptadas = leer_texto(archivo)
+                archivo.close()
             elif opcion == 3:
                 print("Sera utilizado el archivo heart.txt")
                 archivo = open("heart.txt", "r")
-                palabras_aceptadas = leer_archivo(archivo)
+                palabras_aceptadas = leer_texto(archivo)
             elif opcion == 4:
                 graficar_automata()
             else:
@@ -49,21 +60,14 @@ def imprimir_menu():
 
 
 def leer_texto(texto):
-    texto += " "
-    aceptadas = obtener_palabras(texto)
-    return aceptadas
-
-
-def leer_archivo(archivo):
     aceptadas = None
     palabras_aceptadas = []
     contador = 1
-    for linea in archivo:
+    for linea in texto:
         aceptadas = obtener_palabras(linea)
         palabras_aceptadas.append([contador, aceptadas])
         contador += 1
 
-    archivo.close()
     return palabras_aceptadas
 
 
@@ -75,7 +79,10 @@ def imprimir_palabras_aceptadas(palabras_aceptadas, seleccion):
         contador = 0
         for x in palabras_aceptadas:
             if len(x[1]) > 0:
-                print("Linea ", x[0], " palabras aceptadas: ", x[1])
+                print("")
+                print("Linea ", str(x[0])+',', " palabras aceptadas: ", end=' ')
+                for palabra in x[1]:
+                    print(palabra[0], '(No. palabra:'+str(palabra[1])+')', end=', ')
 
 
 main()

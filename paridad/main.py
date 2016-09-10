@@ -83,5 +83,4 @@ def imprimir_menu():
             print('Por favor, intrudusca un dato válido')
 
 
-#main()
-ejecuta_diagrama()
+main()

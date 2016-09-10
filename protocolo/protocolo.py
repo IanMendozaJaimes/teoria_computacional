@@ -1,5 +1,6 @@
 from random import random
 import time
+from tkinter import *
 
 def crear_palabras(nombre_archivo):
     archivo = open(nombre_archivo, "a")

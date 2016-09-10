@@ -1,4 +1,5 @@
-import pdb
+from random import random
+from tkinter import *
 
 def evaluar_cadena(texto):
     tabla_estados = [[0]]
@@ -21,6 +22,7 @@ def evaluar_cadena(texto):
         contador += 1
 
     return tabla_estados
+
 
 def automata(estado, letra):
     if estado == 0:
@@ -67,4 +69,64 @@ def imprimir_estados(tabla_estados):
             else:
                 print('q'+str(tabla_estados[j][x]), end=' ')
 
+
         print("")
+
+
+def generar_palabra():
+    aleatorio = int(random() * 12) % 11
+    aleatorio_cero_uno = 0
+    i = 0
+    texto = ''
+    while i < aleatorio:
+        aleatorio_cero_uno = int(random() * 10) % 2
+        if aleatorio_cero_uno == 1:
+            texto += '1'
+        else:
+            texto += '0'
+        i += 1
+
+    return texto
+
+
+def graficar_automata():
+    raiz = Tk()
+    raiz.title('Autómata')
+    raiz.geometry('500x250')
+    canvas = Canvas(raiz, width=600, height=410, bg='white')
+    canvas.place(x=0,y=0)
+    canvas.pack(expand=YES, fill=BOTH)
+
+    x = 120
+    y = 100
+    r = 50
+    numero_circulos = 3
+    opciones = ['0','1']
+    canvas.create_line(x-40, y+(r/2), x, y+(r/2), width=2, fill='black')
+    canvas.create_oval(x-10, y+(r/2)-5, x, y+(r/2)+5, width=1, fill='black')
+
+    xy = x+5, y-20, x+45, y+40
+    canvas.create_arc(xy, start=0, extent=180, style='arc')
+    canvas.create_oval(x, y+(r/2)-27, x+10, y+(r/2)-17, width=1, fill='black')
+    widget = Label(canvas, text='0,1', fg='black', bg='white')
+    widget.pack()
+    canvas.create_window(x+25, y-35, window=widget)
+
+    for i in range(numero_circulos):
+        canvas.create_oval(x, y, x+r, y+r, width=1, fill='white')
+        widget = Label(canvas, text='q'+str(i), fg='black', bg='white')
+        widget.pack()
+        canvas.create_window(x+.5*r, y+.5*r, window=widget)
+
+        if i < numero_circulos-1:
+            canvas.create_line(x+r, y+(r/2), x+r+70, y+(r/2), width=2, fill='black')
+            widget = Label(canvas, text=opciones[i], fg='black', bg='white')
+            widget.pack()
+            canvas.create_window(x+r+25, y+(r/2)-15, window=widget)
+            canvas.create_oval(x+r+60, y+(r/2)-5, x+r+70, y+(r/2)+5, width=1, fill='black')
+
+        if i == numero_circulos -1:
+            canvas.create_oval(x+5, y+5, x+r-5, y+r-5, width=1, fill='white')
+        x += r+70
+
+    raiz.mainloop()

@@ -6,26 +6,31 @@ def obtener_palabras(texto):
     palabras_aceptadas = []
     temporal = ''
     letra_auxiliar = ''
+    ascii_axuliar = 0
+    contador = 0
     for x in texto:
         letra_auxiliar = x
         letra_auxiliar.lower()
+        ascii_axuliar = ord(letra_auxiliar)
 
-        estado = automata(estado, letra_auxiliar)
-
-        if estado == -1:
-            estado = 0
-            temporal = ''
-        elif estado == 4:
-            palabras_aceptadas.append(temporal)
-            estado = 0
-            temporal = ''
-        else:
+        if (ascii_axuliar >= 97 and ascii_axuliar <= 122) or (ascii_axuliar >= 160 and ascii_axuliar <= 164) or (ascii_axuliar >= 130 and ascii_axuliar <= 141) or (ascii_axuliar >= 147 and ascii_axuliar <= 152):
+            estado = automata(estado, letra_auxiliar)
             temporal += x
+        else:
+            contador += 1
+            if estado == 3:
+                palabras_aceptadas.append([temporal, contador])
+            temporal = ''
+            estado = 0
+
+    if estado == 3:
+        contador += 1
+        palabras_aceptadas.append([temporal, contador])
 
     return palabras_aceptadas
 
+
 def automata(estado, letra_auxiliar):
-    alfabeto = [97, 122]
     if estado == 0:
         return estado_cero(letra_auxiliar)
     elif estado == 1:
