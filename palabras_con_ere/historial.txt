@@ -1,0 +1,40 @@
+Delta(q0, t)-->Delta(q0, h)-->Delta(q0, e)-->Delta(q1, r)-->Delta(q2, e)-->q3
+
+Delta(q0, i)-->Delta(q0, s)-->q0
+
+Delta(q0, w)-->Delta(q0, e)-->Delta(q1, r)-->Delta(q2, e)-->q3
+
+q0
+
+Delta(q0, y)-->Delta(q0, o)-->Delta(q0, u)-->q0
+
+Delta(q0, e)-->Delta(q1, r)-->Delta(q2, e)-->q3
+
+q0
+
+Delta(q0, h)-->Delta(q0, o)-->Delta(q0, l)-->Delta(q0, a)-->q0
+
+Delta(q0, c)-->Delta(q0, o)-->Delta(q0, m)-->Delta(q0, o)-->q0
+
+Delta(q0, e)-->Delta(q1, r)-->Delta(q2, e)-->q3
+
+Delta(q0, a)-->Delta(q0, s)-->Delta(q0, i)-->q0
+
+Delta(q0, t)-->Delta(q0, h)-->Delta(q0, e)-->Delta(q1, r)-->Delta(q2, e)-->q3
+
+Delta(q0, e)-->Delta(q1, r)-->Delta(q2, e)-->q3
+
+Delta(q0, q)-->Delta(q0, u)-->Delta(q0, e)-->q1
+
+Delta(q0, t)-->Delta(q0, e)-->q1
+
+Delta(q0, e)-->Delta(q1, r)-->Delta(q2, e)-->q3
+
+Delta(q0, r)-->Delta(q0, e)-->q1
+
+Delta(q0, e)-->Delta(q1, r)-->Delta(q2, e)-->q3
+
+Delta(q0, e)-->Delta(q1, r)-->Delta(q2, e)-->q3
+
+Delta(q0, e)-->Delta(q1, r)-->q2
+

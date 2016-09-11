@@ -2,27 +2,35 @@ from tkinter import *
 import time
 
 def obtener_palabras(texto):
+    archivo = open('historial.txt','a')
     estado = 0
     palabras_aceptadas = []
     temporal = ''
     letra_auxiliar = ''
     ascii_axuliar = 0
     contador = 0
+    estado_axiliar = ''
     for x in texto:
         letra_auxiliar = x
         letra_auxiliar.lower()
         ascii_axuliar = ord(letra_auxiliar)
-
         if (ascii_axuliar >= 97 and ascii_axuliar <= 122) or (ascii_axuliar >= 160 and ascii_axuliar <= 164) or (ascii_axuliar >= 130 and ascii_axuliar <= 141) or (ascii_axuliar >= 147 and ascii_axuliar <= 152):
+            estado_axiliar = 'Delta(q'+str(estado)+', '+x+')-->'
+            archivo.write(estado_axiliar)
             estado = automata(estado, letra_auxiliar)
             temporal += x
         else:
             contador += 1
+            estado_axiliar = 'q'+str(estado)+'\n\n'
+            archivo.write(estado_axiliar)
             if estado == 3:
                 palabras_aceptadas.append([temporal, contador])
             temporal = ''
             estado = 0
 
+    estado_axiliar = 'q'+str(estado)+'\n\n'
+    archivo.write(estado_axiliar)
+    archivo.close()
     if estado == 3:
         contador += 1
         palabras_aceptadas.append([temporal, contador])
@@ -73,6 +81,7 @@ def estado_tres(letra):
         return 2
     else:
         return 0
+
 
 def graficar_automata():
     raiz = Tk()
@@ -152,3 +161,9 @@ def dibujos_especificos(canvas, i, x, y):
         widget = Label(canvas, text='es e', fg='black', bg='white')
         widget.pack()
         canvas.create_window(x-80, y-65, window=widget)
+        xy = x-65, y, x+16, y+60
+        canvas.create_arc(xy, start=0, extent=-180, style='arc')
+        widget = Label(canvas, text='es r', fg='black', bg='white')
+        widget.pack()
+        canvas.create_window(x-24, y+73, window=widget)
+        canvas.create_oval(x-60,y+44, x-50,y+54, width=1, fill='black')

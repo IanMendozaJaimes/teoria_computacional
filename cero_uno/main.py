@@ -7,9 +7,15 @@ def main():
             texto = ''
             tabla_estados = []
             if opcion == 1:
-                texto = input('\n\nIngrese una palabra binaria para evaluar: ')
-                tabla_estados = evaluar_cadena(texto)
-                imprimir_estados(tabla_estados)
+                while True:
+                    texto = input('\n\nIngrese una palabra binaria para evaluar: ')
+                    tabla_estados = evaluar_cadena(texto)
+                    imprimir_estados(tabla_estados)
+
+                    opcion = input("\n\nQuiere ingresar otro número? [s/n]  ")
+                    if opcion != 's' and opcion != 'S':
+                        break
+
             elif opcion == 2:
                 aleatorio = 0
                 while True:

@@ -2,6 +2,7 @@ from metodos import obtener_paridades, ejecuta_diagrama
 from random import random
 
 def main():
+    archivo = open("historial.txt","w")
     try:
         while True:
             opcion = imprimir_menu()
@@ -23,7 +24,7 @@ def main():
 
 def ejecuta_manual():
     while True:
-        texto = input('Introdusca un número binario: ')
+        texto = input('\n\nIntrodusca un número binario: ')
         es_permitida = obtener_paridades(texto)
         opcion = ''
 
@@ -58,6 +59,7 @@ def ejecuta_automatico():
                 numero += '1'
             i += 1
 
+        print('\n\nSe utilizara la palabra: ', numero)
         es_permitida = obtener_paridades(numero)
         if es_permitida:
             print('La palabra ', numero, ' es permitida')

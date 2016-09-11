@@ -69,9 +69,12 @@ def imprimir_estados(tabla_estados):
             else:
                 print('q'+str(tabla_estados[j][x]), end=' ')
 
-
         print("")
 
+    if tabla_estados[len(tabla_estados)-1][len(tabla_estados[0])-1] == 2:
+        print("La palabra es valida\n\n")
+    else:
+        print("La palabra no es valida\n\n")
 
 def generar_palabra():
     aleatorio = int(random() * 12) % 11

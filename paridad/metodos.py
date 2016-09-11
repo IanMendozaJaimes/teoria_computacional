@@ -1,13 +1,22 @@
 from tkinter import *
 
 def obtener_paridades(texto):
+    archivo = open("historial.txt", 'a')
+    historial = ''
     palabras_permitidas = []
     temporal = ''
     estado = 0
     for x in texto:
-        print('E', estado, ' ', x, end=', ')
+        historial = '(q'+str(estado)+', '+x+')-->'
+        print(historial, end='')
+        archivo.write(historial)
         estado = automata(estado, x)
 
+    historial = 'q'+str(estado)
+    print(historial, end='  ')
+    archivo.write(historial)
+    archivo.write('\n')
+    archivo.close()
     if estado == 0:
         return True
     else:

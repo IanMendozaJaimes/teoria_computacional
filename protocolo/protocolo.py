@@ -6,7 +6,7 @@ def crear_palabras(nombre_archivo):
     archivo = open(nombre_archivo, "a")
     longitud = 32
     aleatorio_numero = 0
-    for x in range(0,10):
+    for x in range(0,  50):
         i = 0
         par = int(random() * 10) % 2
         while  i < longitud:
@@ -27,6 +27,9 @@ def retrazar(tiempo):
 
 def evaluar(nombre_archivo):
     archivo = open(nombre_archivo, 'r')
+    aceptadas = open("palabras_aceptadas.txt", "w")
+    historial = open("historial.txt", "w")
+    historial_auxiliar = ''
     palabras_permitidas = []
     temporal = ''
     estado = 0
@@ -37,14 +40,23 @@ def evaluar(nombre_archivo):
             break
 
         if letra != ' ':
+            historial_auxiliar = 'Delta(q'+str(estado)+', '+letra+')-->'
             estado = automata(estado, letra)
             temporal += letra
         else:
+            historial_auxiliar = 'q'+str(estado)+'\n\n\n'
             if estado == 0:
                 palabras_permitidas.append(temporal)
+                aceptadas.write(temporal)
+                aceptadas.write('\n')
             estado = 0
             temporal = ''
 
+        historial.write(historial_auxiliar)
+
+    archivo.close()
+    aceptadas.close()
+    historial.close()
     return palabras_permitidas
 
 def automata(estado, x):
@@ -54,6 +66,8 @@ def automata(estado, x):
         return estado_uno(x)
     elif estado == 2:
         return estado_dos(x)
+    elif estado == 3:
+        return estado_tres(x)
     else:
         return -1
 

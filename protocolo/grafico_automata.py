@@ -49,7 +49,3 @@ def dibujar_grafico_automata():
         x += 2*r+70
 
     raiz.mainloop()
-
-
-
-dibujar_grafico_automata()

@@ -3,6 +3,8 @@ from ctypes import *
 
 def main():
     seguir = True
+    archivo = open('historial.txt','w')
+    archivo.close()
     while seguir:
         try:
             palabras_aceptadas = []
@@ -12,37 +14,40 @@ def main():
             opcion = imprimir_menu()
 
             if opcion == 1:
-                print("\n\nIngrese un texto (dos enter para salir): \n")
-                tem = ''
-                t = ''
-                texto = []
-                contador = 0
                 while True:
-                    t = input()
-                    if t == '':
-                        break
-                    texto.append(t)
+                    print("\n\nIngrese un texto (dos veces la tecla enter para salir): \n")
+                    tem = ''
+                    t = ''
+                    texto = []
+                    contador = 0
+                    while True:
+                        t = input()
+                        if t == '':
+                            break
+                        texto.append(t)
 
-                palabras_aceptadas = leer_texto(texto)
+                    palabras_aceptadas = leer_texto(texto)
+                    imprimir_palabras_aceptadas(palabras_aceptadas, opcion)
+
+                    texto = input("\n\nDesea ingresar otra cosa? [s/n]: ")
+                    if (texto != 's') and (texto != 'S'):
+                        break
+
             elif opcion == 2:
                 texto = input("\n\nIngrese el nombre de un archivo: \n")
                 archivo = open(texto, "r")
                 palabras_aceptadas = leer_texto(archivo)
                 archivo.close()
+                imprimir_palabras_aceptadas(palabras_aceptadas, opcion)
             elif opcion == 3:
                 print("Sera utilizado el archivo heart.txt")
                 archivo = open("heart.txt", "r")
                 palabras_aceptadas = leer_texto(archivo)
+                imprimir_palabras_aceptadas(palabras_aceptadas, opcion)
             elif opcion == 4:
                 graficar_automata()
             else:
                 return 0
-
-            imprimir_palabras_aceptadas(palabras_aceptadas, opcion)
-
-            texto = input("\n\nDesea ingresar otra cosa? [s/n]: ")
-            if (texto != 's') and (texto != 'S'):
-                seguir = False
 
         except Exception as e:
             print("Uuups!, parece que tuvimos un problema: ", e)
@@ -73,16 +78,13 @@ def leer_texto(texto):
 
 def imprimir_palabras_aceptadas(palabras_aceptadas, seleccion):
     print("\n\n\n")
-    if seleccion == 1:
-        print("Palabras aceptadas: ", palabras_aceptadas)
-    else:
-        contador = 0
-        for x in palabras_aceptadas:
-            if len(x[1]) > 0:
-                print("")
-                print("Linea ", str(x[0])+',', " palabras aceptadas: ", end=' ')
-                for palabra in x[1]:
-                    print(palabra[0], '(No. palabra:'+str(palabra[1])+')', end=', ')
+    contador = 0
+    for x in palabras_aceptadas:
+        if len(x[1]) > 0:
+            print("")
+            print("Linea ", str(x[0])+',', " palabras aceptadas: ", end=' ')
+            for palabra in x[1]:
+                print(palabra[0], '(No. palabra:'+str(palabra[1])+')', end=', ')
 
 
 main()
