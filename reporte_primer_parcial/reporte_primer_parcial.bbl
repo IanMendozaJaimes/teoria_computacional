@@ -5,4 +5,11 @@
 \newblock {\em Introduction to Automata Theory, Languages and Computation}.
 \newblock Addison Wesley, 2008.
 
+\bibitem{stanford}
+{\sc Ullman, J.~D.}
+\newblock Finite automata.
+\newblock
+  url{http://infolab.stanford.edu/\~{}ullman/ialc/spr10/slides/fa1.pdf}, 2010.
+\newblock Accedido: 2016-09-10.
+
 \end{thebibliography}

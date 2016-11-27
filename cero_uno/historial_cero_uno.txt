@@ -1,0 +1,22 @@
+q0 
+La palabra no es valida
+
+q0 
+La palabra no es valida
+
+q0 q0 q0 q0 
+q0 q0 q0 q0 
+q0 q1 q0 q0 
+q0 xx q1 q0 
+q0 xx q2 q0 
+q0 xx xx q1 
+La palabra no es valida
+
+q0 q0 q0 q0 
+q0 q1 q0 q0 
+q0 xx q1 q0 
+q0 xx xx q1 
+q0 xx xx q2 
+q0 xx xx xx 
+La palabra no es valida
+

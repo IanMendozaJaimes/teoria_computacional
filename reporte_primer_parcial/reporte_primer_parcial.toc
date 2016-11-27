@@ -1,17 +1,26 @@
 \select@language {spanish}
-\contentsline {section}{\numberline {1}Introducci\IeC {\'o}n}{3}
-\contentsline {section}{\numberline {2}Alfabetos}{4}
-\contentsline {subsection}{\numberline {2.1}Descripci\IeC {\'o}n del problema}{4}
-\contentsline {subsection}{\numberline {2.2}C\IeC {\'o}digo fuente}{4}
-\contentsline {subsection}{\numberline {2.3}Pruebas}{8}
-\contentsline {section}{\numberline {3}N\IeC {\'u}meros primos}{10}
-\contentsline {subsection}{\numberline {3.1}Descripci\IeC {\'o}n del problema}{10}
-\contentsline {subsection}{\numberline {3.2}C\IeC {\'o}digo}{10}
-\contentsline {subsection}{\numberline {3.3}Pruebas}{13}
-\contentsline {section}{\numberline {4}Palabras que terminan en ere}{15}
-\contentsline {subsection}{\numberline {4.1}Descripci\IeC {\'o}n del problema}{15}
-\contentsline {subsection}{\numberline {4.2}C\IeC {\'o}digo}{15}
-\contentsline {subsection}{\numberline {4.3}Pruebas}{21}
-\contentsline {section}{\numberline {5}Paridad}{23}
-\contentsline {section}{\numberline {6}Protocolo}{24}
-\contentsline {section}{\numberline {7}Cadenas que terminan en 01}{25}
+\contentsline {section}{\numberline {1}Universo de palabras}{3}
+\contentsline {subsection}{\numberline {1.1}Descripci\IeC {\'o}n del problema}{3}
+\contentsline {subsection}{\numberline {1.2}C\IeC {\'o}digo fuente}{3}
+\contentsline {subsection}{\numberline {1.3}Pruebas}{7}
+\contentsline {section}{\numberline {2}N\IeC {\'u}meros primos}{9}
+\contentsline {subsection}{\numberline {2.1}Descripci\IeC {\'o}n del problema}{9}
+\contentsline {subsection}{\numberline {2.2}C\IeC {\'o}digo}{9}
+\contentsline {subsection}{\numberline {2.3}Pruebas}{13}
+\contentsline {section}{\numberline {3}Palabras que terminan en ere}{16}
+\contentsline {subsection}{\numberline {3.1}Descripci\IeC {\'o}n del problema}{16}
+\contentsline {subsection}{\numberline {3.2}C\IeC {\'o}digo}{16}
+\contentsline {subsection}{\numberline {3.3}Pruebas}{22}
+\contentsline {section}{\numberline {4}Paridad de ceros y unos}{25}
+\contentsline {subsection}{\numberline {4.1}Descripci\IeC {\'o}n del problema}{25}
+\contentsline {subsection}{\numberline {4.2}C\IeC {\'o}digo}{25}
+\contentsline {subsection}{\numberline {4.3}Pruebas}{31}
+\contentsline {section}{\numberline {5}Protocolo}{33}
+\contentsline {subsection}{\numberline {5.1}Descripci\IeC {\'o}n del problema}{33}
+\contentsline {subsection}{\numberline {5.2}C\IeC {\'o}digo}{33}
+\contentsline {subsection}{\numberline {5.3}Pruebas}{39}
+\contentsline {section}{\numberline {6}Cadenas que terminan en 01}{42}
+\contentsline {subsection}{\numberline {6.1}Descripci\IeC {\'o}n del problema}{42}
+\contentsline {subsection}{\numberline {6.2}C\IeC {\'o}digo}{42}
+\contentsline {subsection}{\numberline {6.3}Pruebas}{47}
+\contentsline {section}{\numberline {7}Referencias}{49}

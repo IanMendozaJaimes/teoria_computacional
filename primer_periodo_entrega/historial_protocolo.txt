@@ -1,0 +1,150 @@
+Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 0)-->Delta(q3, 0)-->Delta(q1, 0)-->Delta(q3, 0)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 1)-->Delta(q3, 1)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 0)-->q3
+
+
+Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 1)-->Delta(q3, 1)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 0)-->Delta(q3, 1)-->Delta(q2, 1)-->Delta(q3, 0)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 1)-->Delta(q3, 0)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 0)-->Delta(q3, 1)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 1)-->q3
+
+
+Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 1)-->Delta(q3, 0)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 1)-->Delta(q3, 1)-->Delta(q2, 1)-->Delta(q3, 0)-->Delta(q1, 0)-->Delta(q3, 1)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 1)-->Delta(q3, 1)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 0)-->Delta(q3, 0)-->Delta(q1, 0)-->Delta(q3, 1)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 0)-->Delta(q3, 0)-->Delta(q1, 0)-->q3
+
+
+Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->q0
+
+
+Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 1)-->Delta(q3, 0)-->Delta(q1, 0)-->Delta(q3, 0)-->Delta(q1, 0)-->Delta(q3, 1)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 1)-->Delta(q3, 1)-->Delta(q2, 1)-->Delta(q3, 0)-->Delta(q1, 0)-->Delta(q3, 0)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->q0
+
+
+Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->q0
+
+
+Delta(q0, 0)-->Delta(q2, 1)-->Delta(q3, 0)-->Delta(q1, 0)-->Delta(q3, 1)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 0)-->Delta(q3, 1)-->Delta(q2, 1)-->Delta(q3, 1)-->Delta(q2, 1)-->Delta(q3, 0)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 0)-->Delta(q3, 1)-->Delta(q2, 1)-->Delta(q3, 0)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 1)-->Delta(q3, 0)-->Delta(q1, 0)-->Delta(q3, 1)-->Delta(q2, 0)-->q0
+
+
+Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->q0
+
+
+Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 1)-->Delta(q3, 1)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 1)-->Delta(q3, 1)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 1)-->Delta(q3, 1)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 0)-->Delta(q3, 1)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 0)-->Delta(q3, 1)-->Delta(q2, 1)-->Delta(q3, 1)-->Delta(q2, 1)-->Delta(q3, 1)-->Delta(q2, 1)-->Delta(q3, 1)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 0)-->q3
+
+
+Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->q0
+
+
+Delta(q0, 0)-->Delta(q2, 1)-->Delta(q3, 1)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 1)-->Delta(q3, 1)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 0)-->Delta(q3, 0)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 1)-->Delta(q3, 0)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 1)-->Delta(q3, 0)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 0)-->Delta(q3, 1)-->Delta(q2, 1)-->Delta(q3, 0)-->Delta(q1, 0)-->q3
+
+
+Delta(q0, 0)-->Delta(q2, 1)-->Delta(q3, 0)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 1)-->Delta(q3, 0)-->Delta(q1, 0)-->Delta(q3, 0)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 0)-->Delta(q3, 1)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 1)-->Delta(q3, 1)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 0)-->Delta(q3, 0)-->Delta(q1, 1)-->q0
+
+
+Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->q0
+
+
+Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 1)-->Delta(q3, 0)-->Delta(q1, 0)-->Delta(q3, 0)-->Delta(q1, 0)-->Delta(q3, 1)-->Delta(q2, 1)-->Delta(q3, 0)-->Delta(q1, 0)-->Delta(q3, 0)-->Delta(q1, 0)-->Delta(q3, 1)-->Delta(q2, 1)-->Delta(q3, 1)-->Delta(q2, 1)-->Delta(q3, 0)-->Delta(q1, 0)-->Delta(q3, 0)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 0)-->Delta(q3, 0)-->Delta(q1, 0)-->Delta(q3, 1)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 1)-->Delta(q3, 1)-->Delta(q2, 1)-->q3
+
+
+Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->q0
+
+
+Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->q0
+
+
+Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->q0
+
+
+Delta(q0, 0)-->Delta(q2, 1)-->Delta(q3, 1)-->Delta(q2, 1)-->Delta(q3, 1)-->Delta(q2, 1)-->Delta(q3, 0)-->Delta(q1, 0)-->Delta(q3, 1)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 1)-->Delta(q3, 0)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 0)-->Delta(q3, 1)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 1)-->Delta(q3, 0)-->Delta(q1, 0)-->Delta(q3, 0)-->Delta(q1, 0)-->Delta(q3, 0)-->Delta(q1, 0)-->Delta(q3, 0)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->q0
+
+
+Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->q0
+
+
+Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 0)-->Delta(q3, 1)-->Delta(q2, 1)-->Delta(q3, 0)-->Delta(q1, 0)-->Delta(q3, 1)-->Delta(q2, 1)-->Delta(q3, 0)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 0)-->Delta(q3, 0)-->Delta(q1, 0)-->Delta(q3, 1)-->Delta(q2, 1)-->Delta(q3, 1)-->Delta(q2, 1)-->Delta(q3, 1)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 1)-->Delta(q3, 0)-->Delta(q1, 0)-->q3
+
+
+Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->q0
+
+
+Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 1)-->Delta(q3, 0)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 1)-->Delta(q3, 0)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 1)-->Delta(q3, 1)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 1)-->Delta(q3, 0)-->Delta(q1, 0)-->Delta(q3, 1)-->Delta(q2, 1)-->q3
+
+
+Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->q0
+
+
+Delta(q0, 0)-->Delta(q2, 1)-->Delta(q3, 1)-->Delta(q2, 1)-->Delta(q3, 0)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 1)-->Delta(q3, 1)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 0)-->Delta(q3, 0)-->Delta(q1, 0)-->Delta(q3, 1)-->Delta(q2, 1)-->Delta(q3, 1)-->Delta(q2, 1)-->Delta(q3, 0)-->Delta(q1, 0)-->Delta(q3, 1)-->Delta(q2, 1)-->Delta(q3, 1)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 0)-->Delta(q3, 1)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->q0
+
+
+Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->q0
+
+
+Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 1)-->Delta(q3, 0)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 1)-->Delta(q3, 0)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->q0
+
+
+Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 1)-->Delta(q3, 1)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 0)-->Delta(q3, 0)-->Delta(q1, 0)-->Delta(q3, 1)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 0)-->Delta(q3, 1)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 1)-->Delta(q3, 0)-->Delta(q1, 0)-->Delta(q3, 1)-->Delta(q2, 1)-->Delta(q3, 1)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 1)-->Delta(q3, 1)-->Delta(q2, 1)-->Delta(q3, 0)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->q0
+
+
+Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->q0
+
+
+Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->q0
+
+
+Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->q0
+
+
+Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 0)-->Delta(q3, 0)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 0)-->Delta(q3, 0)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 0)-->Delta(q3, 0)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 0)-->q3
+
+
+Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 1)-->Delta(q3, 1)-->Delta(q2, 1)-->Delta(q3, 0)-->Delta(q1, 0)-->Delta(q3, 0)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 1)-->Delta(q3, 0)-->Delta(q1, 0)-->Delta(q3, 1)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 1)-->Delta(q3, 0)-->Delta(q1, 0)-->Delta(q3, 0)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 1)-->Delta(q3, 0)-->Delta(q1, 0)-->Delta(q3, 0)-->Delta(q1, 1)-->q0
+
+
+Delta(q0, 1)-->Delta(q1, 0)-->Delta(q3, 0)-->Delta(q1, 0)-->Delta(q3, 1)-->Delta(q2, 1)-->Delta(q3, 1)-->Delta(q2, 1)-->Delta(q3, 0)-->Delta(q1, 0)-->Delta(q3, 0)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 1)-->Delta(q3, 1)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 1)-->Delta(q3, 1)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 0)-->q3
+
+
+Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->q0
+
+
+Delta(q0, 0)-->Delta(q2, 1)-->Delta(q3, 1)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 0)-->Delta(q3, 0)-->Delta(q1, 0)-->Delta(q3, 0)-->Delta(q1, 0)-->Delta(q3, 0)-->Delta(q1, 0)-->Delta(q3, 1)-->Delta(q2, 1)-->Delta(q3, 0)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 1)-->Delta(q3, 0)-->Delta(q1, 0)-->Delta(q3, 0)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 0)-->q3
+
+
+Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 1)-->Delta(q3, 0)-->Delta(q1, 0)-->Delta(q3, 1)-->Delta(q2, 1)-->Delta(q3, 0)-->Delta(q1, 0)-->Delta(q3, 1)-->Delta(q2, 1)-->Delta(q3, 0)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 0)-->Delta(q3, 0)-->Delta(q1, 0)-->Delta(q3, 1)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 0)-->Delta(q3, 1)-->Delta(q2, 1)-->q3
+
+
+Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->q0
+
+
+Delta(q0, 1)-->Delta(q1, 0)-->Delta(q3, 1)-->Delta(q2, 1)-->Delta(q3, 0)-->Delta(q1, 0)-->Delta(q3, 1)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 1)-->Delta(q3, 0)-->Delta(q1, 0)-->Delta(q3, 0)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 0)-->Delta(q3, 1)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 1)-->Delta(q3, 1)-->Delta(q2, 1)-->Delta(q3, 1)-->Delta(q2, 1)-->q3
+
+
+Delta(q0, 0)-->Delta(q2, 1)-->Delta(q3, 1)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 1)-->Delta(q3, 0)-->Delta(q1, 0)-->Delta(q3, 1)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 1)-->Delta(q3, 0)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 0)-->Delta(q3, 1)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 1)-->Delta(q3, 1)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 1)-->Delta(q3, 0)-->Delta(q1, 0)-->q3
+
+
+Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->q0
+
+
+Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->q0
+
+
+Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 1)-->Delta(q3, 0)-->Delta(q1, 0)-->Delta(q3, 1)-->Delta(q2, 1)-->Delta(q3, 0)-->Delta(q1, 0)-->Delta(q3, 1)-->Delta(q2, 1)-->Delta(q3, 1)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 1)-->Delta(q3, 1)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->q0
+
+
+Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 0)-->Delta(q3, 0)-->Delta(q1, 0)-->Delta(q3, 1)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 0)-->Delta(q3, 0)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 1)-->Delta(q3, 1)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 1)-->Delta(q3, 1)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->q0
+
+
+Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->q0
+
+
+Delta(q0, 0)-->Delta(q2, 1)-->Delta(q3, 1)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 1)-->Delta(q3, 1)-->Delta(q2, 1)-->Delta(q3, 1)-->Delta(q2, 1)-->Delta(q3, 0)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 1)-->Delta(q3, 0)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 1)-->Delta(q3, 0)-->Delta(q1, 0)-->Delta(q3, 0)-->Delta(q1, 0)-->Delta(q3, 0)-->Delta(q1, 0)-->q3
+
+
+Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->q0
+
+
+Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->q0
+
+
+Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->q0
+
+
+Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 0)-->Delta(q3, 0)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 0)-->Delta(q3, 1)-->Delta(q2, 1)-->Delta(q3, 0)-->Delta(q1, 0)-->Delta(q3, 1)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 0)-->Delta(q3, 0)-->Delta(q1, 0)-->Delta(q3, 0)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 0)-->Delta(q3, 1)-->Delta(q2, 1)-->Delta(q3, 0)-->Delta(q1, 0)-->q3
+
+
+Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->Delta(q0, 0)-->Delta(q2, 0)-->Delta(q0, 1)-->Delta(q1, 1)-->q0
+
+

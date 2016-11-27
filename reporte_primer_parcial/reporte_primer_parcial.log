@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  10 SEP 2016 00:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  6 NOV 2016 20:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -8,8 +8,8 @@ LaTeX2e <2015/01/01>
 Babel <3.9l> and hyphenation patterns for 79 languages loaded.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size12.clo
-File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@section=\count80
@@ -395,6 +395,10 @@ File: listings.cfg 2014/09/06 1.5e listings configuration
 ))
 Package: listings 2014/09/06 1.5e (Carsten Heinz)
 
+(/usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
 (/usr/local/texlive/2015/texmf-dist/tex/latex/cite/cite.sty
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
@@ -469,33 +473,56 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box30
 \@float@everytoks=\toks26
 \@floatcapt=\box31
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tocbibind/tocbibind.sty
+Package: tocbibind 2010/10/13 v1.5k extra ToC listings
+Package tocbibind Info: The document has section divisions on input line 50.
+
+
+Package tocbibind Note: Using section or other style headings.
+
 ) (./reporte_primer_parcial.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
+
+
+LaTeX Warning: Label `fig:primos_automatico' multiply defined.
+
+
+LaTeX Warning: Label `fig:primos_manual' multiply defined.
+
+
+LaTeX Warning: Label `fig:primos_manual' multiply defined.
+
+
+LaTeX Warning: Label `fig:automata_ere_auto' multiply defined.
+
+
+LaTeX Warning: Label `fig:automata_ere_auto' multiply defined.
+
 )
 \openout1 = `reporte_primer_parcial.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Try loading font information for T1+pbk on input line 35.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/t1pbk.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Try loading font information for T1+pbk on input line 40.
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/t1pbk.fd
 File: t1pbk.fd 2001/06/04 font definitions for T1/pbk.
 )
-LaTeX Font Info:    Font shape `T1/pbk/m/n' in size <12> not available
-(Font)              Font shape `T1/pbk/l/n' tried instead on input line 35.
-LaTeX Info: Redefining \. on input line 35.
-LaTeX Info: Redefining \% on input line 35.
+LaTeX Font Info:    Font shape `T1/pbk/m/n' in size <10.95> not available
+(Font)              Font shape `T1/pbk/l/n' tried instead on input line 40.
+LaTeX Info: Redefining \. on input line 40.
+LaTeX Info: Redefining \% on input line 40.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -516,12 +543,12 @@ LaTeX Info: Redefining \% on input line 35.
 * \topmargin=-23.91173pt
 * \headheight=12.0pt
 * \headsep=25.0pt
-* \topskip=12.0pt
+* \topskip=11.0pt
 * \footskip=30.0pt
-* \marginparwidth=44.0pt
+* \marginparwidth=59.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -593,47 +620,47 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Font shape `T1/pbk/m/n' in size <20.74> not available
-(Font)              Font shape `T1/pbk/l/n' tried instead on input line 38.
-LaTeX Font Info:    Font shape `T1/pbk/m/n' in size <14.4> not available
-(Font)              Font shape `T1/pbk/l/n' tried instead on input line 38.
-LaTeX Font Info:    Try loading font information for U+msa on input line 38.
+LaTeX Font Info:    Font shape `T1/pbk/m/n' in size <17.28> not available
+(Font)              Font shape `T1/pbk/l/n' tried instead on input line 43.
+LaTeX Font Info:    Font shape `T1/pbk/m/n' in size <12> not available
+(Font)              Font shape `T1/pbk/l/n' tried instead on input line 43.
+LaTeX Font Info:    Try loading font information for U+msa on input line 43.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 38.
+LaTeX Font Info:    Try loading font information for U+msb on input line 43.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Font shape `T1/pbk/m/n' in size <17.28> not available
-(Font)              Font shape `T1/pbk/l/n' tried instead on input line 42.
-LaTeX Font Info:    Font shape `T1/pbk/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/pbk/b/n' tried instead on input line 42.
-LaTeX Font Info:    Font shape `T1/pbk/b/n' in size <17.28> not available
-(Font)              Font shape `T1/pbk/db/n' tried instead on input line 42.
+LaTeX Font Info:    Font shape `T1/pbk/m/n' in size <14.4> not available
+(Font)              Font shape `T1/pbk/l/n' tried instead on input line 56.
+LaTeX Font Info:    Font shape `T1/pbk/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/pbk/b/n' tried instead on input line 56.
+LaTeX Font Info:    Font shape `T1/pbk/b/n' in size <14.4> not available
+(Font)              Font shape `T1/pbk/db/n' tried instead on input line 56.
 
 (./reporte_primer_parcial.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
-LaTeX Font Info:    Font shape `T1/pbk/bx/n' in size <12> not available
+LaTeX Font Info:    Font shape `T1/pbk/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/pbk/b/n' tried instead on input line 2.
-LaTeX Font Info:    Font shape `T1/pbk/b/n' in size <12> not available
+LaTeX Font Info:    Font shape `T1/pbk/b/n' in size <10.95> not available
 (Font)              Font shape `T1/pbk/db/n' tried instead on input line 2.
 )
 \tf@toc=\write3
 \openout3 = `reporte_primer_parcial.toc'.
 
- [2] [3]
-LaTeX Font Info:    Font shape `T1/pbk/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/pbk/b/n' tried instead on input line 53.
-LaTeX Font Info:    Font shape `T1/pbk/b/n' in size <14.4> not available
-(Font)              Font shape `T1/pbk/db/n' tried instead on input line 53.
+ [2]
+LaTeX Font Info:    Font shape `T1/pbk/bx/n' in size <12> not available
+(Font)              Font shape `T1/pbk/b/n' tried instead on input line 64.
+LaTeX Font Info:    Font shape `T1/pbk/b/n' in size <12> not available
+(Font)              Font shape `T1/pbk/db/n' tried instead on input line 64.
 
-Underfull \hbox (badness 10000) in paragraph at lines 57--58
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
 
  []
 
@@ -643,149 +670,350 @@ File: lstlang1.sty 2014/09/06 1.5e listings language file
 (/usr/local/texlive/2015/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
 )
-LaTeX Font Info:    Font shape `T1/pbk/m/n' in size <10> not available
-(Font)              Font shape `T1/pbk/l/n' tried instead on input line 61.
-LaTeX Font Info:    Font shape `T1/pbk/bx/n' in size <10> not available
-(Font)              Font shape `T1/pbk/b/n' tried instead on input line 62.
-LaTeX Font Info:    Font shape `T1/pbk/b/n' in size <10> not available
-(Font)              Font shape `T1/pbk/db/n' tried instead on input line 62.
-LaTeX Font Info:    Try loading font information for OMS+pbk on input line 64.
+LaTeX Font Info:    Font shape `T1/pbk/m/n' in size <9> not available
+(Font)              Font shape `T1/pbk/l/n' tried instead on input line 72.
+LaTeX Font Info:    Font shape `T1/pbk/bx/n' in size <9> not available
+(Font)              Font shape `T1/pbk/b/n' tried instead on input line 73.
+LaTeX Font Info:    Font shape `T1/pbk/b/n' in size <9> not available
+(Font)              Font shape `T1/pbk/db/n' tried instead on input line 73.
+LaTeX Font Info:    Try loading font information for OMS+pbk on input line 75.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omspbk.fd
 File: omspbk.fd 
 )
-LaTeX Font Info:    Font shape `OMS/pbk/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 64.
- [4] [5]
-[6] [7]
-Underfull \hbox (badness 10000) in paragraph at lines 216--217
+LaTeX Font Info:    Font shape `OMS/pbk/m/n' in size <9> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 75.
+ [3] [4]
+[5] [6]
+Underfull \hbox (badness 10000) in paragraph at lines 227--228
 
  []
 
-<imagenes/alfabetos_automatico.png, id=33, 596.2275pt x 528.97626pt>
+<imagenes/alfabetos_automatico.png, id=30, 596.2275pt x 528.97626pt>
 File: imagenes/alfabetos_automatico.png Graphic file (type png)
 
 <use imagenes/alfabetos_automatico.png>
 Package pdftex.def Info: imagenes/alfabetos_automatico.png used on input line 2
-21.
+32.
 (pdftex.def)             Requested size: 472.03351pt x 199.16469pt.
 
-<imagenes/alfabeto_muestra.png, id=35, 1269.74374pt x 481.8pt>
+<imagenes/alfabeto_muestra.png, id=32, 1269.74374pt x 481.8pt>
 File: imagenes/alfabeto_muestra.png Graphic file (type png)
 
 <use imagenes/alfabeto_muestra.png>
-Package pdftex.def Info: imagenes/alfabeto_muestra.png used on input line 229.
+Package pdftex.def Info: imagenes/alfabeto_muestra.png used on input line 240.
 (pdftex.def)             Requested size: 472.02592pt x 170.71304pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 229--231
+Underfull \hbox (badness 10000) in paragraph at lines 240--242
 [][]
  []
 
-<imagenes/alfabetos_manual.png, id=36, 723.70375pt x 477.785pt>
+<imagenes/alfabetos_manual.png, id=33, 723.70375pt x 477.785pt>
 File: imagenes/alfabetos_manual.png Graphic file (type png)
 
 <use imagenes/alfabetos_manual.png>
-Package pdftex.def Info: imagenes/alfabetos_manual.png used on input line 239.
+Package pdftex.def Info: imagenes/alfabetos_manual.png used on input line 250.
 (pdftex.def)             Requested size: 472.0362pt x 199.1665pt.
- [8 <./imagenes/alfabetos_automatico.png> <./imagenes/alfabeto_muestra.png>] [9
- <./imagenes/alfabetos_manual.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 253--254
+ [7 <./imagenes/alfabetos_automatico.png> <./imagenes/alfabeto_muestra.png>]
+<imagenes/alfabeto_muestra_manual.png, id=40, 816.04875pt x 526.96875pt>
+File: imagenes/alfabeto_muestra_manual.png Graphic file (type png)
+
+<use imagenes/alfabeto_muestra_manual.png>
+Package pdftex.def Info: imagenes/alfabeto_muestra_manual.png used on input lin
+e 256.
+(pdftex.def)             Requested size: 472.03851pt x 284.5428pt.
+ [8 <./imagenes/alfabetos_manual.png> <./imagenes/alfabeto_muestra_manual.png>]
+
+Underfull \hbox (badness 10000) in paragraph at lines 277--278
 
  []
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2014/09/06 1.5e listings language file
-) [10]
-[11] [12]
-Underfull \hbox (badness 10000) in paragraph at lines 393--394
+) [9]
+[10]
+LaTeX Font Info:    Font shape `T1/pbk/m/it' in size <9> not available
+(Font)              Font shape `T1/pbk/l/it' tried instead on input line 387.
+ [11] [12]
+Underfull \hbox (badness 10000) in paragraph at lines 445--446
 
  []
 
-<imagenes/primos_automatico.png, id=55, 967.615pt x 608.2725pt>
+<imagenes/primos_automatico.png, id=59, 962.59625pt x 520.94624pt>
 File: imagenes/primos_automatico.png Graphic file (type png)
 
 <use imagenes/primos_automatico.png>
-Package pdftex.def Info: imagenes/primos_automatico.png used on input line 397.
+Package pdftex.def Info: imagenes/primos_automatico.png used on input line 449.
 
-(pdftex.def)             Requested size: 472.03894pt x 369.89479pt.
+(pdftex.def)             Requested size: 472.02881pt x 199.16988pt.
 
-<imagenes/primos_manual.png, id=56, 961.5925pt x 503.8825pt>
+<imagenes/primos_automatico_texto.png, id=60, 596.2275pt x 299.1175pt>
+File: imagenes/primos_automatico_texto.png Graphic file (type png)
+
+<use imagenes/primos_automatico_texto.png>
+Package pdftex.def Info: imagenes/primos_automatico_texto.png used on input lin
+e 455.
+(pdftex.def)             Requested size: 472.03351pt x 199.17079pt.
+
+<imagenes/primos_manual.png, id=61, 967.615pt x 508.90125pt>
 File: imagenes/primos_manual.png Graphic file (type png)
 
 <use imagenes/primos_manual.png>
-Package pdftex.def Info: imagenes/primos_manual.png used on input line 406.
-(pdftex.def)             Requested size: 472.03546pt x 284.525pt.
- [13 <./imagenes/primos_automatico.png>]
-[14 <./imagenes/primos_manual.png>]
-LaTeX Font Info:    Font shape `T1/pbk/m/it' in size <12> not available
-(Font)              Font shape `T1/pbk/l/it' tried instead on input line 417.
+Package pdftex.def Info: imagenes/primos_manual.png used on input line 464.
+(pdftex.def)             Requested size: 472.03894pt x 256.08069pt.
+ [13 <./imagenes/primos_automatico.png> <./imagenes/primos_automatico_texto.png
+>]
+<imagenes/primos_manual_texto.png, id=68, 600.2425pt x 158.5925pt>
+File: imagenes/primos_manual_texto.png Graphic file (type png)
 
-<imagenes/automata_ere.png, id=66, 487.8225pt x 344.28625pt>
+<use imagenes/primos_manual_texto.png>
+Package pdftex.def Info: imagenes/primos_manual_texto.png used on input line 47
+0.
+(pdftex.def)             Requested size: 472.04318pt x 142.27454pt.
+ [14 <./imagenes/primos_manual.png> <./imagenes/primos_manual_texto.png>]
+<imagenes/primos_grafica.png, id=74, 1237.62375pt x 214.8025pt>
+File: imagenes/primos_grafica.png Graphic file (type png)
+
+<use imagenes/primos_grafica.png>
+Package pdftex.def Info: imagenes/primos_grafica.png used on input line 479.
+(pdftex.def)             Requested size: 472.0393pt x 142.265pt.
+ [15 <./imagenes/primos_grafica.png>]
+LaTeX Font Info:    Font shape `T1/pbk/m/it' in size <10.95> not available
+(Font)              Font shape `T1/pbk/l/it' tried instead on input line 497.
+
+<imagenes/automata_ere.png, id=79, 469.755pt x 326.21875pt>
 File: imagenes/automata_ere.png Graphic file (type png)
 
 <use imagenes/automata_ere.png>
-Package pdftex.def Info: imagenes/automata_ere.png used on input line 424.
-(pdftex.def)             Requested size: 472.03351pt x 284.52821pt.
+Package pdftex.def Info: imagenes/automata_ere.png used on input line 504.
+(pdftex.def)             Requested size: 472.03323pt x 284.54968pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 429--430
+Underfull \hbox (badness 10000) in paragraph at lines 509--510
 
  []
 
-[15 <./imagenes/automata_ere.png>] [16] [17] [18] [19]
-<imagenes/palabras_ere_texto.png, id=85, 736.7525pt x 359.3425pt>
+[16 <./imagenes/automata_ere.png>] [17] [18] [19] [20]
+<imagenes/palabras_ere_texto.png, id=97, 901.3675pt x 438.63875pt>
 File: imagenes/palabras_ere_texto.png Graphic file (type png)
 
 <use imagenes/palabras_ere_texto.png>
-Package pdftex.def Info: imagenes/palabras_ere_texto.png used on input line 688
+Package pdftex.def Info: imagenes/palabras_ere_texto.png used on input line 790
 .
-(pdftex.def)             Requested size: 472.02588pt x 227.62614pt.
- [20]
-<imagenes/palabras_ere_archivo.png, id=89, 755.82375pt x 487.8225pt>
+(pdftex.def)             Requested size: 472.04219pt x 227.62494pt.
+ [21]
+<imagenes/palabras_ere_archivo.png, id=101, 838.13126pt x 460.72125pt>
 File: imagenes/palabras_ere_archivo.png Graphic file (type png)
 
 <use imagenes/palabras_ere_archivo.png>
-Package pdftex.def Info: imagenes/palabras_ere_archivo.png used on input line 6
-94.
-(pdftex.def)             Requested size: 472.03116pt x 227.62413pt.
+Package pdftex.def Info: imagenes/palabras_ere_archivo.png used on input line 7
+96.
+(pdftex.def)             Requested size: 472.02318pt x 227.61835pt.
 
-<imagenes/palabras_ere_auto.png, id=90, 826.08624pt x 449.68pt>
+<imagenes/palabras_ere_auto.png, id=102, 822.07124pt x 421.575pt>
 File: imagenes/palabras_ere_auto.png Graphic file (type png)
 
 <use imagenes/palabras_ere_auto.png>
-Package pdftex.def Info: imagenes/palabras_ere_auto.png used on input line 700.
+Package pdftex.def Info: imagenes/palabras_ere_auto.png used on input line 802.
 
-(pdftex.def)             Requested size: 472.0337pt x 227.62523pt.
- [21 <./imagenes/palabras_ere_texto.png> <./imagenes/palabras_ere_archivo.png>]
- [22 <./imagenes/palabras_ere_auto.png>]
-[23] [24] (./reporte_primer_parcial.bbl
-LaTeX Font Info:    Font shape `T1/pbk/m/sc' in size <12> not available
+(pdftex.def)             Requested size: 472.03502pt x 227.6278pt.
+ [22 <./imagenes/palabras_ere_texto.png> <./imagenes/palabras_ere_archivo.png>]
+
+<imagenes/palabras_ere_historial.png, id=108, 607.26875pt x 404.51125pt>
+File: imagenes/palabras_ere_historial.png Graphic file (type png)
+
+<use imagenes/palabras_ere_historial.png>
+Package pdftex.def Info: imagenes/palabras_ere_historial.png used on input line
+ 808.
+(pdftex.def)             Requested size: 472.03688pt x 227.62343pt.
+
+<imagenes/automata_prueba.png, id=109, 696.6025pt x 417.56pt>
+File: imagenes/automata_prueba.png Graphic file (type png)
+
+<use imagenes/automata_prueba.png>
+Package pdftex.def Info: imagenes/automata_prueba.png used on input line 814.
+(pdftex.def)             Requested size: 472.03589pt x 227.6262pt.
+ [23 <./imagenes/palabras_ere_auto.png> <./imagenes/palabras_ere_historial.png>
+] [24 <./imagenes/automata_prueba.png>]
+<imagenes/automata_paridad.png, id=119, 481.8pt x 334.24875pt>
+File: imagenes/automata_paridad.png Graphic file (type png)
+
+<use imagenes/automata_paridad.png>
+Package pdftex.def Info: imagenes/automata_paridad.png used on input line 839.
+(pdftex.def)             Requested size: 472.04314pt x 284.55139pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 844--845
+
+ []
+
+[25 <./imagenes/automata_paridad.png>] [26] [27] [28] [29] [30]
+<imagenes/paridad_manual.png, id=140, 848.16875pt x 337.26pt>
+File: imagenes/paridad_manual.png Graphic file (type png)
+
+<use imagenes/paridad_manual.png>
+Package pdftex.def Info: imagenes/paridad_manual.png used on input line 1099.
+(pdftex.def)             Requested size: 472.03343pt x 227.62523pt.
+
+<imagenes/paridad_auto.png, id=141, 964.60374pt x 460.72125pt>
+File: imagenes/paridad_auto.png Graphic file (type png)
+
+<use imagenes/paridad_auto.png>
+Package pdftex.def Info: imagenes/paridad_auto.png used on input line 1105.
+(pdftex.def)             Requested size: 472.02707pt x 227.61835pt.
+
+<imagenes/paridad_historial.png, id=142, 604.2575pt x 308.15125pt>
+File: imagenes/paridad_historial.png Graphic file (type png)
+
+<use imagenes/paridad_historial.png>
+Package pdftex.def Info: imagenes/paridad_historial.png used on input line 1111
+.
+(pdftex.def)             Requested size: 472.02892pt x 227.62866pt.
+ [31 <./imagenes/paridad_manual.png> <./imagenes/paridad_auto.png>]
+<imagenes/automata_paridad_prueba.png, id=149, 627.34375pt x 407.5225pt>
+File: imagenes/automata_paridad_prueba.png Graphic file (type png)
+
+<use imagenes/automata_paridad_prueba.png>
+Package pdftex.def Info: imagenes/automata_paridad_prueba.png used on input lin
+e 1117.
+(pdftex.def)             Requested size: 472.04782pt x 227.6203pt.
+ [32 <./imagenes/paridad_historial.png> <./imagenes/automata_paridad_prueba.png
+>]
+<imagenes/automata_protocolo.png, id=155, 443.6575pt x 238.8925pt>
+File: imagenes/automata_protocolo.png Graphic file (type png)
+
+<use imagenes/automata_protocolo.png>
+Package pdftex.def Info: imagenes/automata_protocolo.png used on input line 114
+1.
+(pdftex.def)             Requested size: 472.02803pt x 284.5444pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1146--1147
+
+ []
+
+[33 <./imagenes/automata_protocolo.png>] [34] [35] [36] [37] [38]
+<imagenes/protocolo_encender.png, id=176, 966.61125pt x 538.01pt>
+File: imagenes/protocolo_encender.png Graphic file (type png)
+
+<use imagenes/protocolo_encender.png>
+Package pdftex.def Info: imagenes/protocolo_encender.png used on input line 140
+0.
+(pdftex.def)             Requested size: 472.036pt x 199.1673pt.
+
+<imagenes/protocolo_generadas.png, id=177, 719.68875pt x 414.54875pt>
+File: imagenes/protocolo_generadas.png Graphic file (type png)
+
+<use imagenes/protocolo_generadas.png>
+Package pdftex.def Info: imagenes/protocolo_generadas.png used on input line 14
+06.
+(pdftex.def)             Requested size: 472.042pt x 199.16457pt.
+
+<imagenes/protocolo_aceptadas.png, id=178, 671.50874pt x 416.55624pt>
+File: imagenes/protocolo_aceptadas.png Graphic file (type png)
+
+<use imagenes/protocolo_aceptadas.png>
+Package pdftex.def Info: imagenes/protocolo_aceptadas.png used on input line 14
+12.
+(pdftex.def)             Requested size: 472.03047pt x 199.16927pt.
+ [39 <./imagenes/protocolo_encender.png> <./imagenes/protocolo_generadas.png>]
+<imagenes/protocolo_historial.png, id=184, 610.28pt x 415.5525pt>
+File: imagenes/protocolo_historial.png Graphic file (type png)
+
+<use imagenes/protocolo_historial.png>
+Package pdftex.def Info: imagenes/protocolo_historial.png used on input line 14
+18.
+(pdftex.def)             Requested size: 472.04951pt x 199.17125pt.
+
+<imagenes/automata_protocolo_prueba.png, id=185, 574.145pt x 347.2975pt>
+File: imagenes/automata_protocolo_prueba.png Graphic file (type png)
+
+<use imagenes/automata_protocolo_prueba.png>
+Package pdftex.def Info: imagenes/automata_protocolo_prueba.png used on input l
+ine 1424.
+(pdftex.def)             Requested size: 472.04597pt x 199.17517pt.
+ [40 <./imagenes/protocolo_aceptadas.png> <./imagenes/protocolo_historial.png>]
+ [41 <./imagenes/automata_protocolo_prueba.png>]
+<imagenes/automata_cero_uno.png, id=195, 480.79625pt x 231.86626pt>
+File: imagenes/automata_cero_uno.png Graphic file (type png)
+
+<use imagenes/automata_cero_uno.png>
+Package pdftex.def Info: imagenes/automata_cero_uno.png used on input line 1448
+.
+(pdftex.def)             Requested size: 472.04279pt x 284.5534pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1453--1454
+
+ []
+
+[42 <./imagenes/automata_cero_uno.png>] [43] [44] [45] [46]
+<imagenes/cero_uno_manual.png, id=213, 748.7975pt x 496.85625pt>
+File: imagenes/cero_uno_manual.png Graphic file (type png)
+
+<use imagenes/cero_uno_manual.png>
+Package pdftex.def Info: imagenes/cero_uno_manual.png used on input line 1655.
+(pdftex.def)             Requested size: 472.03056pt x 227.62413pt.
+
+<imagenes/cero_uno_auto.png, id=214, 845.1575pt x 399.4925pt>
+File: imagenes/cero_uno_auto.png Graphic file (type png)
+
+<use imagenes/cero_uno_auto.png>
+Package pdftex.def Info: imagenes/cero_uno_auto.png used on input line 1661.
+(pdftex.def)             Requested size: 472.04695pt x 227.62164pt.
+
+<imagenes/cero_uno_historial.png, id=215, 608.2725pt x 396.48125pt>
+File: imagenes/cero_uno_historial.png Graphic file (type png)
+
+<use imagenes/cero_uno_historial.png>
+Package pdftex.def Info: imagenes/cero_uno_historial.png used on input line 166
+7.
+(pdftex.def)             Requested size: 472.04675pt x 227.62405pt.
+ [47 <./imagenes/cero_uno_manual.png> <./imagenes/cero_uno_auto.png>]
+<imagenes/automata_cero_uno_prueba.png, id=221, 684.5575pt x 304.13625pt>
+File: imagenes/automata_cero_uno_prueba.png Graphic file (type png)
+
+<use imagenes/automata_cero_uno_prueba.png>
+Package pdftex.def Info: imagenes/automata_cero_uno_prueba.png used on input li
+ne 1673.
+(pdftex.def)             Requested size: 472.04225pt x 227.62827pt.
+ [48 <./imagenes/cero_uno_historial.png> <./imagenes/automata_cero_uno_prueba.p
+ng>] (./reporte_primer_parcial.bbl
+LaTeX Font Info:    Font shape `T1/pbk/m/sc' in size <10.95> not available
 (Font)              Font shape `T1/pbk/l/sc' tried instead on input line 4.
-) [25] (./reporte_primer_parcial.aux
+
+Overfull \hbox (76.87714pt too wide) in paragraph at lines 9--14
+[]\T1/pbk/l/sc/10.95 Ullman, J. D.  \T1/pbk/l/n/10.95 Fi-ni-te au-to-ma-ta.  ur
+lhttp://infolab.stanford.edu/^^Cullman/ialc/spr10/slides/fa1.pdf,
+ []
+
+) [49] (./reporte_primer_parcial.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
-) ) 
+)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 7668 strings out of 493089
- 106243 string characters out of 6134842
- 424880 words of memory out of 5000000
- 11007 multiletter control sequences out of 15000+600000
- 28645 words of font info for 68 fonts, out of 8000000 for 9000
+ 8039 strings out of 493089
+ 113883 string characters out of 6134842
+ 460115 words of memory out of 5000000
+ 11343 multiletter control sequences out of 15000+600000
+ 30710 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,6n,49p,534b,1780s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/
-texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/t
-exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/te
-xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texl
-ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive
-/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/
-2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/20
-15/texmf-dist/fonts/type1/urw/bookman/ubkd8a.pfb></usr/local/texlive/2015/texmf
--dist/fonts/type1/urw/bookman/ubkl8a.pfb></usr/local/texlive/2015/texmf-dist/fo
-nts/type1/urw/bookman/ubkli8a.pfb>
-Output written on reporte_primer_parcial.pdf (25 pages, 2294599 bytes).
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
+xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
+live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texli
+ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/
+2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2
+015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/201
+5/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2015/
+texmf-dist/fonts/type1/urw/bookman/ubkd8a.pfb></usr/local/texlive/2015/texmf-di
+st/fonts/type1/urw/bookman/ubkl8a.pfb></usr/local/texlive/2015/texmf-dist/fonts
+/type1/urw/bookman/ubkli8a.pfb>
+Output written on reporte_primer_parcial.pdf (49 pages, 4633207 bytes).
 PDF statistics:
- 141 PDF objects out of 1000 (max. 8388607)
- 86 compressed objects within 1 object stream
+ 268 PDF objects out of 1000 (max. 8388607)
+ 143 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 156 words of extra memory for PDF output out of 10000 (max. 10000000)
 

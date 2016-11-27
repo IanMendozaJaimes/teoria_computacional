@@ -1,0 +1,138 @@
+\documentclass[11pt]{article}
+
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\usepackage{charter} %tipo de fuente
+
+\usepackage{textcomp} %Paquete para algunos caracteres especiales
+
+
+\usepackage{amsmath, amsfonts, amssymb}
+
+\usepackage[left=1.5cm, right=1.5cm, top=2.5cm]{geometry}
+
+%para escribir codigo
+\usepackage{listings}
+
+
+\usepackage{float}
+
+
+\title{Gramáticas Libres de Contexto, notación BNF: \textit{If's anidados}}
+\author{Ian Mendoza Jaimes}
+
+
+\begin{document}
+
+\maketitle
+
+\begin{center}
+
+Teoría Computacional\\
+
+Grupo: 2CM4\\
+
+Profesor: Genaro Juárez Martínez\\
+\end{center}
+
+\newpage
+
+
+\section{Definición del problema}
+Las GFC son un tipo de gramática formal de la forma: $V \rightarrow W$, donde V es un símbolo no terminal y w es una cadena de terminales y/o no terminales. El término libre de contexto se refiere al hecho de que el no terminal V puede siempre ser sustituido por w sin tener en cuenta el contexto en el que ocurra.\\
+
+Para entender mejor este concepto se realizo el siguiente ejercicio: Construir 10 if's anidados usando CFG con la notación BNF. Con esta información podemos definir la siguiente estructura de nuestro if: \[ <statement> ::= if <condition> then <statement> [; else <statement>] \] con las siguientes reglas de producción: 
+
+\begin{equation}
+S \rightarrow iCtSA
+\end{equation}
+
+\begin{equation}
+A \rightarrow ;eS | \varepsilon
+\end{equation}
+
+\vspace{1em}
+
+\section{Producción de 10 if's anidados}
+
+\subsection{Usando las reglas de generación}
+
+\begin{enumerate}
+
+\item Utilizando (1): \[ S \rightarrow iCtSA \]
+\item Utilizando (2): \[ iCtSA \rightarrow iCtS;eS \]
+\item Utilizando (1): \[ iCtS;eS \rightarrow iCtS;eiCtSA \]
+\item Utilizando (2): \[ iCtS;eiCtSA \rightarrow iCtS;eiCtS\varepsilon \]
+\item Utilizando (1): \[ iCtS;eiCtS\varepsilon \rightarrow iCtS;eiCtiCtSA\varepsilon \]
+\item Utilizando (2): \[ iCtS;eiCtiCtSA\varepsilon \rightarrow iCtS;eiCtiCtS\varepsilon\varepsilon \]
+\item Utilizando (1): \[ iCtS;eiCtiCtS\varepsilon\varepsilon \rightarrow iCtiCtSA;eiCtiCtS\varepsilon\varepsilon \]
+\item Utilizando (2): \[ iCtiCtSA;eiCtiCtS\varepsilon\varepsilon \rightarrow iCtiCtS\varepsilon;eiCtiCtS\varepsilon\varepsilon \]
+\item Utilizando (1): \[ iCtiCtS\varepsilon;eiCtiCtS\varepsilon\varepsilon \rightarrow iCtiCtiCtSA\varepsilon;eiCtiCtS\varepsilon\varepsilon \]
+\item Utilizando (2): \[ iCtiCtiCtSA\varepsilon;eiCtiCtS\varepsilon\varepsilon \rightarrow  iCtiCtiCtS\varepsilon\varepsilon;eiCtiCtS\varepsilon\varepsilon \]
+\item Utilizando (1): \[ iCtiCtiCtS\varepsilon\varepsilon;eiCtiCtS\varepsilon\varepsilon \rightarrow iCtiCtiCtiCtSA\varepsilon\varepsilon;eiCtiCtS\varepsilon\varepsilon \]
+\item Utilizando (2): \[ iCtiCtiCtiCtSA\varepsilon\varepsilon;eiCtiCtS\varepsilon\varepsilon \rightarrow iCtiCtiCtiCtS;eS\varepsilon\varepsilon;eiCtiCtS\varepsilon\varepsilon \]
+\item Utilizando (1): \[ iCtiCtiCtiCtS;eS\varepsilon\varepsilon;eiCtiCtS\varepsilon\varepsilon \rightarrow iCtiCtiCtiCtS;eiCtSA\varepsilon\varepsilon;eiCtiCtS\varepsilon\varepsilon \]
+\item Utilizando (2): \[ iCtiCtiCtiCtS;eiCtSA\varepsilon\varepsilon;eiCtiCtS\varepsilon\varepsilon \rightarrow iCtiCtiCtiCtS;eiCtS;eS\varepsilon\varepsilon;eiCtiCtS\varepsilon\varepsilon \]
+\item Utilizando (1): \[ iCtiCtiCtiCtS;eiCtS;eS\varepsilon\varepsilon;eiCtiCtS\varepsilon\varepsilon \rightarrow iCtiCtiCtiCtiCtSA;eiCtS;eS\varepsilon\varepsilon;eiCtiCtS\varepsilon\varepsilon \]
+\item Utilizando (2): \[ iCtiCtiCtiCtiCtSA;eiCtS;eS\varepsilon\varepsilon;eiCtiCtS\varepsilon\varepsilon \rightarrow 
+iCtiCtiCtiCtiCtS\varepsilon;eiCtS;eS\varepsilon\varepsilon;eiCtiCtS\varepsilon\varepsilon \]
+\item Utilizando (1): \[ iCtiCtiCtiCtiCtS\varepsilon;eiCtS;eS\varepsilon\varepsilon;eiCtiCtS\varepsilon\varepsilon \rightarrow 
+iCtiCtiCtiCtiCtiCtSA\varepsilon;eiCtS;eS\varepsilon\varepsilon;eiCtiCtS\varepsilon\varepsilon \]
+\item Utilizando (2): \[ iCtiCtiCtiCtiCtiCtSA\varepsilon;eiCtS;eS\varepsilon\varepsilon;eiCtiCtS\varepsilon\varepsilon \rightarrow  \] \[ iCtiCtiCtiCtiCtiCtS\varepsilon\varepsilon;eiCtS;eS\varepsilon\varepsilon;eiCtiCtS\varepsilon\varepsilon \]
+\item Utilizando (1): \[ iCtiCtiCtiCtiCtiCtS\varepsilon\varepsilon;eiCtS;eS\varepsilon\varepsilon;eiCtiCtS\varepsilon\varepsilon \rightarrow  \] \[ iCtiCtiCtiCtiCtiCtiCtSA\varepsilon\varepsilon;eiCtS;eS\varepsilon\varepsilon;eiCtiCtS\varepsilon\varepsilon \]
+\item Utilizando (2): \[ iCtiCtiCtiCtiCtiCtiCtSA\varepsilon\varepsilon;eiCtS;eS\varepsilon\varepsilon;eiCtiCtS\varepsilon\varepsilon \rightarrow \] \[ iCtiCtiCtiCtiCtiCtiCtS\varepsilon\varepsilon\varepsilon;eiCtS;eS\varepsilon\varepsilon;eiCtiCtS\varepsilon\varepsilon \]
+
+\end{enumerate}
+
+\vspace{1em}
+Finalmente, retiramos los $ \varepsilon $ y obtenemos: \[ iCtiCtiCtiCtiCtiCtiCtS;eiCtS;eS;eiCtiCtS \]
+
+\subsection{Representación de la expresión completa}
+
+<statement> ::= if <condition> then if <condition> then if <condition> then if <condition> then if <condition> then if <condition> then if <condition> then ; else if <condition> then <statement>; else <statement>;  else if <condition> then if <condition> then <statement>;\\
+
+Con esto, podemos representarlo en código. En este caso se utilizo código C con su respectiva regla para evitar las ambigüedades en las derivaciones.
+
+\lstset{language=C, breaklines=true, basicstyle=\footnotesize}
+\begin{lstlisting}[frame=single]
+if(condition){
+    if(condition){
+        if(condition){
+            if(condition){
+                if(condition){
+                    if(condition){
+                        if(condition){
+                            statement;
+                        }
+                        else{
+                            if(condition){
+                                statement;
+                            }
+                            else{
+                                statement;
+                            }
+                        }
+                    }
+                    else{
+                        if(condition){
+                            if(condition){
+                                statement;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+\end{lstlisting}
+
+
+\end{document}
+
+
+
+
+

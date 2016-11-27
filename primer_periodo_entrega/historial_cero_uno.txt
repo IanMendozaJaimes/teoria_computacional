@@ -1,0 +1,8 @@
+q0 q0 q0 q0 
+q0 q1 q0 q0 
+q0 xx q1 q0 
+q0 xx q2 q0 
+q0 xx xx q1 
+q0 xx xx q2 
+La palabra es valida
+

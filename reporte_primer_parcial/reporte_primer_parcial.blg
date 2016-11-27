@@ -2,45 +2,45 @@ This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: reporte_primer_parcial.aux
 The style file: acm.bst
-Database file #1: bibliografia.bib.bib
-You've used 1 entry,
+Database file #1: bibliografia.bib
+You've used 2 entries,
             2253 wiz_defined-function locations,
-            532 strings with 4049 characters,
-and the built_in function-call counts, 241 in all, are:
-= -- 19
-> -- 7
+            539 strings with 4215 characters,
+and the built_in function-call counts, 464 in all, are:
+= -- 41
+> -- 14
 < -- 0
-+ -- 3
-- -- 2
-* -- 12
-:= -- 47
-add.period$ -- 3
-call.type$ -- 1
-change.case$ -- 3
++ -- 6
+- -- 4
+* -- 20
+:= -- 84
+add.period$ -- 7
+call.type$ -- 2
+change.case$ -- 7
 chr.to.int$ -- 0
-cite$ -- 1
-duplicate$ -- 13
-empty$ -- 24
-format.name$ -- 2
-if$ -- 48
+cite$ -- 2
+duplicate$ -- 21
+empty$ -- 47
+format.name$ -- 4
+if$ -- 97
 int.to.chr$ -- 0
-int.to.str$ -- 1
+int.to.str$ -- 2
 missing$ -- 2
-newline$ -- 8
-num.names$ -- 2
-pop$ -- 8
+newline$ -- 14
+num.names$ -- 4
+pop$ -- 16
 preamble$ -- 1
-purify$ -- 3
+purify$ -- 6
 quote$ -- 0
-skip$ -- 6
+skip$ -- 12
 stack$ -- 0
-substring$ -- 5
-swap$ -- 2
+substring$ -- 10
+swap$ -- 4
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 2
+type$ -- 6
 warning$ -- 0
-while$ -- 2
-width$ -- 2
-write$ -- 12
+while$ -- 4
+width$ -- 3
+write$ -- 24
